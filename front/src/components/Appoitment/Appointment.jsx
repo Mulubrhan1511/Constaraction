@@ -4,7 +4,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 const Appointment = () => {
   return (
     <div className='appointment section'>
-        <div className='container mx-auto'>
+        {/* <div className='container mx-auto'>
             <h2
                 className='appointment__title h2 mb-5 xl:mb-[50px] text-center xl:text-left'
             >
@@ -58,7 +58,7 @@ const Appointment = () => {
             Book Appointment
         </button>
         </form>
-        </div>
+        </div> */}
        
     </div>
   )
