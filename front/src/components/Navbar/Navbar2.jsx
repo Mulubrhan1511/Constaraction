@@ -23,12 +23,12 @@ const Navbar2 = () => {
             {/* location */}
             <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
               <RiMapPin2Fill className='text-2xl text-accent' />
-              <div className='text-secondary'>123 Arling, Miola, Ny</div>
+              <div className='text-secondary'>Adis Ababa, ethiopia</div>
             </div>
             {/* phone */}
             <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
               <RiPhoneFill className='text-2xl text-accent' />
-              <div className='text-secondary'>(+123) 456 7890</div>
+              <div className='text-secondary'>(+251)  91 170 3505</div>
             </div>
 
             {/* dark mode */}
@@ -37,7 +37,7 @@ const Navbar2 = () => {
               
             </div>
             <button className='btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0'>
-              Book now
+              Call now
             </button>
             {/* mobile nav */}
             <nav
@@ -78,18 +78,18 @@ const Navbar2 = () => {
                   className='text-secondary hover:text-accent transition-all
                   duration-300'
                   >
-                    Doctors
+                    About us
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                   href='#'
                   className='text-secondary hover:text-accent transition-all
                   duration-300'
                   >
-                    Department
+                    
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                   href='#'
@@ -115,7 +115,7 @@ const Navbar2 = () => {
                   className='text-secondary hover:text-accent transition-all
                   duration-300'
                   >
-                    Contact
+                    Contact us
                   </a>
                 </li>
 
@@ -157,7 +157,7 @@ const Navbar2 = () => {
                   className='border-r pr-4 text-secondary hover:text-accent transition-all
                   duration-300'
                   >
-                    Doctors
+                   About us
                   </a>
                 </li>
                 <li>
@@ -166,16 +166,7 @@ const Navbar2 = () => {
                   className='border-r pr-4 text-secondary hover:text-accent transition-all
                   duration-300'
                   >
-                    Department
-                  </a>
-                </li>
-                <li>
-                  <a
-                  href='#'
-                  className='border-r pr-4 text-secondary hover:text-accent transition-all
-                  duration-300'
-                  >
-                    Services
+                   Service
                   </a>
                 </li>
                 <li>
@@ -187,7 +178,6 @@ const Navbar2 = () => {
                     Blog
                   </a>
                 </li>
-
                 <li>
                   <a
                   href='#'

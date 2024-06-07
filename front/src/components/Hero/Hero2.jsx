@@ -13,20 +13,19 @@ const Hero2 = () => {
                     <div className='flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2 mb-[26px]
                     rounded-full mx-auto xl:mx-0'>
                         {/* badge icon */}
-                        <RiHeartPulseLine className='text-2xl text-accent' />
-                        <div
+                        {/* <RiHeartPulseLine className='text-2xl text-accent' /> */}
+                        {/* <div
                         className='uppercase text-base font-medium text-[#9ab4b7] tracking-[2.24px]'
                         >
                             Live your life
-                        </div>
+                        </div> */}
 
                     </div>
-                    <h1 className='h1 mb-6'>We care about your health</h1>
+                    <h1 className='h1 mb-6'>Best construction company</h1>
                     <p className='mb-[42px] md:max-w-xl'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                        voluptatibus, voluptates, quas, fugit quos dolorum
-                        dolor sit amet consectetur adipisicing elit. Quisquam
-                        voluptatibus, voluptates, quas, fugit quos dolorum
+                    DARNA specializes in a wide range of construction projects, including residential, 
+                    commercial, and industrial developments. The company is known for its commitment to quality,
+                    safety, and innovation, consistently delivering projects that exceed client expectations.
                         
                     </p>
 
