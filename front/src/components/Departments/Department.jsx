@@ -27,7 +27,6 @@ const Department = () => {
         bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] px-6 xl:px-0 py-12
         xl:pt-[80px] xl:pb-[90px] relative min-h-[588px] flex items-center'
       >
-        
         <div className='departments__container container mx-auto'>
           <div className='flex flex-col xl:flex-row gap-x-5'>
             <div
@@ -36,67 +35,67 @@ const Department = () => {
             >
               <div
                 className='cursor-pointer hover:text-accent transition-all'
-                onClick={() => handleDepartmentClick('Laboratory Analysis')}
+                onClick={() => handleDepartmentClick('Project Management')}
                 data-aos="fade-up"
                 data-aos-duration="500"
               >
-                Laboratory Analysis
+                Project Management
               </div>
               <div
                 className='cursor-pointer hover:text-accent transition-all'
-                onClick={() => handleDepartmentClick('Cardiology Clinic')}
+                onClick={() => handleDepartmentClick('Design')}
                 data-aos="fade-up"
                 data-aos-duration="600"
               >
-                Cardiology Clinic
+                Design
               </div>
               <div
                 className='cursor-pointer hover:text-accent transition-all'
-                onClick={() => handleDepartmentClick('Gynecology Clinic')}
+                onClick={() => handleDepartmentClick('Construction')}
                 data-aos="fade-up"
                 data-aos-duration="700"
               >
-                Gynecology Clinic
+                Construction
               </div>
               <div
                 className='cursor-pointer hover:text-accent transition-all'
-                onClick={() => handleDepartmentClick('Pathology Clinic')}
+                onClick={() => handleDepartmentClick('Procurement')}
                 data-aos="fade-up"
                 data-aos-duration="800"
               >
-                Pathology Clinic
+                Procurement
               </div>
               <div
                 className='cursor-pointer hover:text-accent transition-all'
-                onClick={() => handleDepartmentClick('Padiatrics Clinic')}
+                onClick={() => handleDepartmentClick('Quality Assurance')}
                 data-aos="fade-up"
                 data-aos-duration="900"
               >
-                Padiatrics Clinic
+                Quality Assurance
               </div>
               <div
                 className='cursor-pointer hover:text-accent transition-all'
-                onClick={() => handleDepartmentClick('Neurology Clinic')}
+                onClick={() => handleDepartmentClick('Health and Safety')}
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                Neurology Clinic
+                Health and Safety
               </div>
             </div>
             <div className='xl:w-[640px]' data-aos="fade-up" data-aos-duration="700">
               <h2 className='h2 mb-[20px] text-center xl:text-left'>
-                {selectedDepartment || 'Cardiology Clinic'}
+                {selectedDepartment || 'Project Management'}
               </h2>
 
               <p className='mb-[30px] font-light text-center xl:text-left'>
                 {selectedDepartment
                   ? 'Details about the selected department.'
-                  : 'sit amet consectetur adipisicing elit. Dignissimos consequuntur nobis nesciunt repellat quidem, eum numquam ad harum mollitia neque molestias aperiam! Voluptates amet, iure commodi id cum ratione accusantium!'}
+                  : 'The Project Management department is responsible for planning, executing, and controlling construction projects to ensure they are completed on time, within budget, and to the required quality standards.'}
                 <br />
                 <br />
                 {selectedDepartment
                   ? 'Additional details about the selected department.'
-                  : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti ratione voluptatibus natus repellendus doloremque alias beatae, illum facilis distinctio corporis? Harum assumenda rerum eos aperiam impedit recusandae eius nesciunt!'}
+                  : 'This includes tasks such as developing project plans, managing project resources, monitoring progress, and communicating with stakeholders.'}
               </p>
               <div
                 className='flex flex-col xl:flex-row items-center xl:justify-between
@@ -106,27 +105,27 @@ const Department = () => {
               >
                 <div
                   className={`text-accent xl:border-r border-[#dcdcdc] xl:pr-6 ${
-                    selectedTitle === 'Neurocrtical Care' ? 'font-bold' : ''
+                    selectedTitle === 'Scheduling' ? 'font-bold' : ''
                   }`}
-                  onClick={() => handleTitleClick('Neurocrtical Care')}
+                  onClick={() => handleTitleClick('Scheduling')}
                 >
-                  Neurocrtical Care
+                  Scheduling
                 </div>
                 <div
                   className={`text-accent xl:border-r border-[#dcdcdc] xl:pr-6 ${
-                    selectedTitle === 'Neuro Oncology' ? 'font-bold' : ''
+                    selectedTitle === 'Cost Control' ? 'font-bold' : ''
                   }`}
-                  onClick={() => handleTitleClick('Neuro Oncology')}
+                  onClick={() => handleTitleClick('Cost Control')}
                 >
-                  Neuro Oncology
+                  Cost Control
                 </div>
                 <div
                   className={`text-accent xl:border-r border-[#dcdcdc] xl:pr-6 ${
-                    selectedTitle === 'Geriatric Neurology' ? 'font-bold' : ''
+                    selectedTitle === 'Risk Management' ? 'font-bold' : ''
                   }`}
-                  onClick={() => handleTitleClick('Geriatric Neurology')}
+                  onClick={() => handleTitleClick('Risk Management')}
                 >
-                  Geriatric Neurology
+                  Risk Management
                 </div>
               </div>
               <button className='btn btn-lg btn-accent mx-auto xl:mx-0'>

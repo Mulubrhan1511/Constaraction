@@ -1,5 +1,5 @@
 import React from 'react';
-import Imag1 from '../../assets/blog/img-1.png';
+import Imag1 from '../../assets/blog/img.png';
 import Imag2 from '../../assets/blog/img-2.png';
 import Imag3 from '../../assets/blog/img-3.png';
 
@@ -11,7 +11,7 @@ const Blog = () => {
     <div className="blog">
       <div className="container mx-auto">
         <h2 className="blog__title h2 mb-[50px] text-center xl:text-left" data-aos="fade-up">
-          Our Recents Post
+          Our Recent Projects
         </h2>
         <div
           className="flex flex-col xl:flex-row gap-y-6 xl:gap-x-8 items-center xl:justify-between mb-[50px]"
@@ -27,21 +27,20 @@ const Blog = () => {
               <img
                 className="group-hover:scale-110 transition-all duration-500"
                 src={Imag1}
-                alt="img1"
+                alt="Project 1"
               />
               <div className="bg-accent-tertiary absolute bottom-0 left-0 text-white text-base tracking-[2.24px] font-medium uppercase py-[6px] px-[18px]">
-                Medical
+                Commercial
               </div>
             </div>
             <div className="px-5 py-6">
               <div className="mb-4">Jan 2, 2023</div>
-              <h4 className="h4 mb-[10px]">10 foods to avoid for your heart health</h4>
+              <h4 className="h4 mb-[10px]">Commercial Office Building</h4>
               <p>
-                It's normal to feel anxieety, worry and grief any time you're diagnosed with a
-                condition that's certainty true..
+                A state-of-the-art commercial office building with modern amenities and sustainable design features.
               </p>
               <a href="" className="italic unerline text-[#4c5354]">
-                Read more
+                Learn more
               </a>
             </div>
           </div>
@@ -54,21 +53,20 @@ const Blog = () => {
               <img
                 className="group-hover:scale-110 transition-all duration-500"
                 src={Imag2}
-                alt="img1"
+                alt="Project 2"
               />
               <div className="bg-accent-tertiary absolute bottom-0 left-0 text-white text-base tracking-[2.24px] font-medium uppercase py-[6px] px-[18px]">
-                Medical
+                Residential
               </div>
             </div>
             <div className="px-5 py-6">
               <div className="mb-4">Jan 2, 2023</div>
-              <h4 className="h4 mb-[10px]">10 foods to avoid for your heart health</h4>
+              <h4 className="h4 mb-[10px]">Luxury Apartment Complex</h4>
               <p>
-                It's normal to feel anxieety, worry and grief any time you're diagnosed with a
-                condition that's certainty true..
+                A high-end residential development with modern amenities and stunning architectural design.
               </p>
               <a href="" className="italic unerline text-[#4c5354]">
-                Read more
+                Learn more
               </a>
             </div>
           </div>
@@ -81,21 +79,20 @@ const Blog = () => {
               <img
                 className="group-hover:scale-110 transition-all duration-500"
                 src={Imag3}
-                alt="img1"
+                alt="Project 3"
               />
               <div className="bg-accent-tertiary absolute bottom-0 left-0 text-white text-base tracking-[2.24px] font-medium uppercase py-[6px] px-[18px]">
-                Medical
+                Industrial
               </div>
             </div>
             <div className="px-5 py-6">
               <div className="mb-4">Jan 2, 2023</div>
-              <h4 className="h4 mb-[10px]">10 foods to avoid for your heart health</h4>
+              <h4 className="h4 mb-[10px]">Manufacturing Facility</h4>
               <p>
-                It's normal to feel anxieety, worry and grief any time you're diagnosed with a
-                condition that's certainty true..
+                A modern and efficient manufacturing facility designed to meet the needs of the client's operations.
               </p>
               <a href="" className="italic unerline text-[#4c5354]">
-                Read more
+                Learn more
               </a>
             </div>
           </div>
