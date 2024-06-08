@@ -11,7 +11,7 @@ const Blog = () => {
     <div className="blog">
       <div className="container mx-auto">
         <h2 className="blog__title h2 mb-[50px] text-center xl:text-left" data-aos="fade-up">
-          Our Recents Posts
+          Our Recents Post
         </h2>
         <div
           className="flex flex-col xl:flex-row gap-y-6 xl:gap-x-8 items-center xl:justify-between mb-[50px]"
