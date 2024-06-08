@@ -21,11 +21,13 @@ const Department = () => {
 
   return (
     <div className='departments section'>
+      <h2 className='faq__title h2 text-center mb-[50px]'>Departments</h2>
       <div
         className='departments__bg bg-departments bg-cover xl:bg-auto bg-center
         bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] px-6 xl:px-0 py-12
         xl:pt-[80px] xl:pb-[90px] relative min-h-[588px] flex items-center'
       >
+        
         <div className='departments__container container mx-auto'>
           <div className='flex flex-col xl:flex-row gap-x-5'>
             <div
