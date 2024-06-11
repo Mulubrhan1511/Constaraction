@@ -65,7 +65,7 @@ const Navbar2 = () => {
                <ul className='flex flex-col gap-y-5'>
                 <li>
                   <a
-                  href='#'
+                  href='/'
                   className='text-secondary hover:text-accent transition-all
                   duration-300'
                   >
@@ -74,7 +74,7 @@ const Navbar2 = () => {
                 </li>
                 <li>
                   <a
-                  href='#'
+                  href='/about'
                   className='text-secondary hover:text-accent transition-all
                   duration-300'
                   >
@@ -144,7 +144,7 @@ const Navbar2 = () => {
             <ul className='flex  gap-x-4'>
                 <li>
                   <a
-                  href='#'
+                  href='/'
                   className='border-r pr-4 text-secondary hover:text-accent transition-all
                   duration-300'
                   >
@@ -153,7 +153,7 @@ const Navbar2 = () => {
                 </li>
                 <li>
                   <a
-                  href='#'
+                  href='/about'
                   className='border-r pr-4 text-secondary hover:text-accent transition-all
                   duration-300'
                   >

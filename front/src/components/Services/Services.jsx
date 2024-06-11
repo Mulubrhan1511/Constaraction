@@ -12,7 +12,7 @@ const Services = () => {
         </div>
     </div>
     <div className='services'>
-    <div className='bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-0 relative h-[368px] flex items-center xl:items-start'>
+    <div className='bg-accent bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-0 relative h-[368px] flex items-center xl:items-start'>
         <div className='container mx-auto'>
             <div className='services__top flex items-center flex-col xl:flex-row xl:mb-[60px] relative z-10'>
                 <h2 className='h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left'>Our services</h2>
