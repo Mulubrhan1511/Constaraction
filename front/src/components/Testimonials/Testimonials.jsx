@@ -5,25 +5,25 @@ const TestimonialData = [
   {
     id: 1,
     name: "Binyam ",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/101/101",
+    text: "I wanted to take this opportunity to thank you for helping us build our first house",
+    img: "../front/src/assets/testimonials/665-103x103.jpg",
   },
   {
     id: 2,
     name: "dawit",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "I wanted to take this opportunity to thank you for helping us build our first house",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
     name: "Eyob",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "I wanted to take this opportunity to thank you for helping us build our first house",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
     name: "Ngus teklay",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "I wanted to take this opportunity to thank you for helping us build our first house",
     img: "https://picsum.photos/103/103",
   },
 ];

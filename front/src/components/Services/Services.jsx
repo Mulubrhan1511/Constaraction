@@ -3,6 +3,8 @@ import serviceImg from '../../assets/services/icon-1.svg'
 import serviceImg2 from '../../assets/services/icon-2.svg'
 import serviceImg3 from '../../assets/services/icon-3.svg'
 import serviceImg4 from '../../assets/services/icon-4.svg'
+import serviceImg5 from '../../assets/services/unkn.svg'
+import { MdConstruction } from "react-icons/md";
 
 const Services = () => {
   return (
@@ -27,7 +29,8 @@ const Services = () => {
         <div className='grid xl:grid-cols-4 gap-5 px-8 xl:px-0'>
             <div className='services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center relative'>
                 <div className='mb-[15px] '>
-                    <img src={serviceImg} alt="services" />
+                    {/* <img src={serviceImg5} alt="services" /> */}
+                    <MdConstruction></MdConstruction>
                 </div>
                 <h3 className='h3 mb-[10px]'>General Contracting</h3>
                 <p className='font-light leading-normal max-w-[300px]'>
@@ -37,7 +40,7 @@ const Services = () => {
             </div>
             <div className='services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center relative'>
                 <div className='mb-[15px] '>
-                    <img src={serviceImg2} alt="services" />
+                    {/* <img src={serviceImg2} alt="services" /> */}
                 </div>
                 <h3 className='h3 mb-[10px]'>Commercial Build-Outs</h3>
                 <p className='font-light leading-normal max-w-[300px]'>
@@ -46,7 +49,7 @@ const Services = () => {
             </div>
             <div className='services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center relative'>
                 <div className='mb-[15px] '>
-                    <img src={serviceImg3} alt="services" />
+                    {/* <img src={serviceImg3} alt="services" /> */}
                 </div>
                 <h3 className='h3 mb-[10px]'>Design-Build Services</h3>
                 <p className='font-light leading-normal max-w-[300px]'>
@@ -55,7 +58,7 @@ const Services = () => {
             </div>
             <div className='services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center relative'>
                 <div className='mb-[15px] '>
-                    <img src={serviceImg4} alt="services" />
+                    {/* <img src={serviceImg4} alt="services" /> */}
                 </div>
                 <h3 className='h3 mb-[10px]'>Permitting and Inspections</h3>
                 <p className='font-light leading-normal max-w-[300px]'>

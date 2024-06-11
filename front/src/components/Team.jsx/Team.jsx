@@ -19,7 +19,7 @@ const Team = () => {
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <h1 data-aos="fade-up" data-aos-delay="200" className="text-4xl font-bold">
-            Meet Our Team
+            Meet Darnas Team
           </h1>
           
         </div>
@@ -29,8 +29,8 @@ const Team = () => {
             {/* card section */}
             <div data-aos="fade-up" data-aos-delay="0" className="card w-[270px] py-8 px-14 text-white text-center">
               <img className="mx-auto -mb-[20px]" src={team} alt="" />
-              <h2 className="text-[28px] font-medium leading-9 mb-[7px]">Sunny Khan</h2>
-              <p className="font-normal leading-5 uppercase">Executive officer</p>
+              <h2 className="text-[28px] font-medium leading-9 mb-[7px]">Ngus Teklay</h2>
+              <p className="font-normal leading-5 uppercase">General manager</p>
               <div className="icons flex mt-[10px] justify-center gap-2">
                 <img src={s} alt="" className="icon cursor-pointer" />
                 <img src={in1} alt="" className="icon cursor-pointer" />
@@ -40,15 +40,15 @@ const Team = () => {
             </div>
             <div data-aos="fade-up" data-aos-delay="200" className="card w-[270px] py-8 px-14 text-white text-center">
               <img className="mx-auto -mb-[20px]" src={team2} alt="" />
-              <h2 className="text-[28px] font-medium leading-9 mb-[7px]">Alina Jesia</h2>
-              <p className="font-normal leading-5 uppercase">UX/UI DESIGNER</p>
+              <h2 className="text-[28px] font-medium leading-9 mb-[7px]">second member</h2>
+              <p className="font-normal leading-5 uppercase">project developer</p>
               <div className="icons flex mt-[10px] justify-center gap-2">
                 <img src={s} alt="" className="icon cursor-pointer" />
                 <img src={in1} alt="" className="icon cursor-pointer" />
                 <img src={tw} alt="" className="icon cursor-pointer" />
                 <img src={fb} alt="" className="icon cursor-pointer" />
               </div>
-            </div>
+            {/* </div>
             <div data-aos="fade-up" data-aos-delay="400" className="card w-[270px] py-8 px-14 text-white text-center">
               <img className="mx-auto -mb-[20px]" src={team3} alt="" />
               <h2 className="text-[28px] font-medium leading-9 mb-[7px]">Alex Sohag</h2>
@@ -69,7 +69,7 @@ const Team = () => {
                 <img src={in1} alt="" className="icon cursor-pointer" />
                 <img src={tw} alt="" className="icon cursor-pointer" />
                 <img src={fb} alt="" className="icon cursor-pointer" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
