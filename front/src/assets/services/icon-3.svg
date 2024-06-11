@@ -1,3 +1,74 @@
-<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M45.8327 37.5C45.8327 39.7101 44.9547 41.8298 43.3919 43.3926C41.8291 44.9554 39.7095 45.8333 37.4993 45.8333H29.166C26.9559 45.8333 24.8363 44.9554 23.2735 43.3926C21.7107 41.8298 20.8327 39.7101 20.8327 37.5V33.3333H45.8327V37.5ZM8.33268 6.25H29.166C30.2711 6.25 31.3309 6.68899 32.1123 7.47039C32.8937 8.25179 33.3327 9.3116 33.3327 10.4167V29.1667H16.666V39.5833H8.33268C7.22761 39.5833 6.16781 39.1443 5.3864 38.3629C4.605 37.5815 4.16602 36.5217 4.16602 35.4167V10.4167C4.16602 9.3116 4.605 8.25179 5.3864 7.47039C6.16781 6.68899 7.22761 6.25 8.33268 6.25ZM8.33268 12.5V16.6667H12.4993V12.5H8.33268ZM29.166 16.6667V12.5H16.666V16.6667H29.166ZM8.33268 20.8333V25H12.4993V20.8333H8.33268ZM16.666 20.8333V25H29.166V20.8333H16.666ZM8.33268 29.1667V33.3333H12.4993V29.1667H8.33268Z" fill="#90C6CD"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#4C4C4C;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#7E7E7E;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#5D5D5D;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#D4D4D4;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#B7B7B7;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#ECECEC;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#A4A4A5;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#DEDEDE;}
+	.st8{fill:none;}
+</style>
+<g id="Layer_x0020_1">
+	<g id="_307572736">
+		<rect id="_459940136" x="34.6" y="33.7" class="st0" width="5.3" height="9.8"/>
+		<polygon id="_459939968" class="st1" points="5.8,19.7 28.7,19.7 29.6,19.7 29.6,20.5 29.6,42.6 29.6,43.5 28.7,43.5 5.8,43.5 
+			4.9,43.5 4.9,42.6 4.9,20.5 4.9,19.7 		"/>
+		<path id="_459939800" class="st2" d="M46.6,1.8v40.8v0.9h-0.9h-6v-0.9v-7.7V34h-0.9h-3.4h-0.9v0.9v7.7v0.9h-6h-0.9v-0.9V9.3
+			l0.1-0.5c1.7-2.8,4.1-4.8,7.1-6c3-1.3,6.5-1.8,10.6-1.8h0.9L46.6,1.8L46.6,1.8z"/>
+		<polygon id="_459939632" class="st3" points="9.2,27.3 12.6,27.3 12.6,29 9.2,29 		"/>
+		<polygon id="_459939464" class="st4" points="9.2,30.7 12.6,30.7 12.6,32.4 9.2,32.4 		"/>
+		<polygon id="_459939296" class="st3" points="9.2,34.1 12.6,34.1 12.6,35.8 9.2,35.8 		"/>
+		<polygon id="_459939128" class="st3" points="15.1,23.9 19.4,23.9 19.4,25.6 15.1,25.6 		"/>
+		<polygon id="_459938960" class="st3" points="15.1,27.3 19.4,27.3 19.4,29 15.1,29 		"/>
+		<polygon id="_459938792" class="st3" points="15.1,30.7 19.4,30.7 19.4,32.4 15.1,32.4 		"/>
+		<polygon id="_459938624" class="st5" points="15.1,34.1 19.4,34.1 19.4,35.8 15.1,35.8 		"/>
+		<polygon id="_459938456" class="st3" points="21.9,23.9 25.3,23.9 25.3,25.6 21.9,25.6 		"/>
+		<polygon id="_459938288" class="st6" points="21.9,27.3 25.3,27.3 25.3,29 21.9,29 		"/>
+		<polygon id="_459938120" class="st3" points="21.9,30.7 25.3,30.7 25.3,32.4 21.9,32.4 		"/>
+		<polygon id="_459937952" class="st3" points="21.9,34.1 25.3,34.1 25.3,35.8 21.9,35.8 		"/>
+		<polygon id="_459937784" class="st3" points="9.2,37.5 12.6,37.5 12.6,39.2 9.2,39.2 		"/>
+		<polygon id="_459937616" class="st3" points="15.1,37.5 19.4,37.5 19.4,39.2 15.1,39.2 		"/>
+		<polygon id="_459937448" class="st3" points="21.9,37.5 25.3,37.5 25.3,39.2 21.9,39.2 		"/>
+		<polygon id="_307578328" class="st3" points="9.2,23.9 12.6,23.9 12.6,25.6 9.2,25.6 		"/>
+		<polygon id="_307578184" class="st7" points="34.7,13.7 36.4,13.7 36.4,15.4 34.7,15.4 		"/>
+		<polygon id="_307578016" class="st7" points="38.1,13.7 39.8,13.7 39.8,15.4 38.1,15.4 		"/>
+		<polygon id="_307577848" class="st7" points="41.5,13.7 43.2,13.7 43.2,15.4 41.5,15.4 		"/>
+		<polygon id="_307577680" class="st7" points="31.3,17.1 33,17.1 33,18.8 31.3,18.8 		"/>
+		<polygon id="_307577512" class="st7" points="31.3,20.5 33,20.5 33,22.2 31.3,22.2 		"/>
+		<polygon id="_307577344" class="st7" points="31.3,23.9 33,23.9 33,25.6 31.3,25.6 		"/>
+		<polygon id="_307577176" class="st7" points="31.3,27.3 33,27.3 33,29 31.3,29 		"/>
+		<polygon id="_307577008" class="st7" points="34.7,17.1 36.4,17.1 36.4,18.8 34.7,18.8 		"/>
+		<polygon id="_307576840" class="st7" points="34.7,20.5 36.4,20.5 36.4,22.2 34.7,22.2 		"/>
+		<polygon id="_307576672" class="st7" points="34.7,23.9 36.4,23.9 36.4,25.6 34.7,25.6 		"/>
+		<polygon id="_307576504" class="st7" points="34.7,27.3 36.4,27.3 36.4,29 34.7,29 		"/>
+		<polygon id="_307576336" class="st7" points="34.7,30.7 36.4,30.7 36.4,32.4 34.7,32.4 		"/>
+		<polygon id="_307576168" class="st7" points="38.1,17.1 39.8,17.1 39.8,18.8 38.1,18.8 		"/>
+		<polygon id="_307576000" class="st7" points="38.1,20.5 39.8,20.5 39.8,22.2 38.1,22.2 		"/>
+		<polygon id="_307575832" class="st7" points="38.1,23.9 39.8,23.9 39.8,25.6 38.1,25.6 		"/>
+		<polygon id="_307575664" class="st7" points="38.1,27.3 39.8,27.3 39.8,29 38.1,29 		"/>
+		<polygon id="_307575496" class="st7" points="38.1,30.7 39.8,30.7 39.8,32.4 38.1,32.4 		"/>
+		<polygon id="_307575328" class="st7" points="41.5,17.1 43.2,17.1 43.2,18.8 41.5,18.8 		"/>
+		<polygon id="_307575160" class="st7" points="41.5,20.5 43.2,20.5 43.2,22.2 41.5,22.2 		"/>
+		<polygon id="_307574992" class="st7" points="41.5,23.9 43.2,23.9 43.2,25.6 41.5,25.6 		"/>
+		<polygon id="_307574824" class="st7" points="41.5,27.3 43.2,27.3 43.2,29 41.5,29 		"/>
+		<polygon id="_307574656" class="st7" points="31.3,30.7 33,30.7 33,32.4 31.3,32.4 		"/>
+		<polygon id="_307574488" class="st7" points="31.3,34.1 33,34.1 33,35.8 31.3,35.8 		"/>
+		<polygon id="_307574320" class="st7" points="31.3,37.5 33,37.5 33,39.2 31.3,39.2 		"/>
+		<polygon id="_307574152" class="st7" points="41.5,30.7 43.2,30.7 43.2,32.4 41.5,32.4 		"/>
+		<polygon id="_307573984" class="st7" points="41.5,34.1 43.2,34.1 43.2,35.8 41.5,35.8 		"/>
+		<polygon id="_307573816" class="st7" points="41.5,37.5 43.2,37.5 43.2,39.2 41.5,39.2 		"/>
+		<polygon id="_307573648" class="st7" points="34.7,10.3 36.4,10.3 36.4,12 34.7,12 		"/>
+		<polygon id="_307573480" class="st7" points="38.1,10.3 39.8,10.3 39.8,12 38.1,12 		"/>
+		<polygon id="_307573312" class="st7" points="41.5,10.3 43.2,10.3 43.2,12 41.5,12 		"/>
+		<polygon id="_307573144" class="st7" points="38.1,6.9 39.8,6.9 39.8,8.6 38.1,8.6 		"/>
+		<polygon id="_307572976" class="st7" points="41.5,6.9 43.2,6.9 43.2,8.6 41.5,8.6 		"/>
+		<polygon id="_307572808" class="st7" points="31.3,13.7 33,13.7 33,15.4 31.3,15.4 		"/>
+	</g>
+	<rect x="-2.6" y="-6.1" class="st8" width="56.7" height="56.7"/>
+</g>
 </svg>
