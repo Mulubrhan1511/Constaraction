@@ -4,7 +4,7 @@ import serviceImg2 from '../../assets/services/icon-2.svg'
 import serviceImg3 from '../../assets/services/icon-3.svg'
 import serviceImg4 from '../../assets/services/icon-4.svg'
 import serviceImg5 from '../../assets/services/unkn.svg'
-
+import { MdConstruction } from "react-icons/md";
 
 const Services = () => {
   return (
@@ -30,6 +30,7 @@ const Services = () => {
             <div className='services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center relative'>
                 <div className='mb-[15px] '>
                     {/* <img src={serviceImg5} alt="services" /> */}
+                    <MdConstruction></MdConstruction>
                 </div>
                 <h3 className='h3 mb-[10px]'>General Contracting</h3>
                 <p className='font-light leading-normal max-w-[300px]'>
