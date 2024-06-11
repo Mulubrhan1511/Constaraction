@@ -31,7 +31,7 @@ const Department = () => {
           <div className='flex flex-col xl:flex-row gap-x-5'>
             <div
               className='xl:w-[310px] flex flex-col gap-y-[30px] xl:gap-y-[40px]
-              font-medium uppercase text-center xl:text-left text-base text-[#9ab4b7] xl:pt-3  xl:text-[17px] mb-[50px] xl:mb-0'
+              font-medium uppercase text-center xl:text-left text-base text-[#fffff] xl:pt-3  xl:text-[17px] mb-[50px] xl:mb-0'
             >
               <div
                 className='cursor-pointer hover:text-accent transition-all'

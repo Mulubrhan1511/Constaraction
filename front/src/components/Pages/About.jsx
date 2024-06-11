@@ -9,34 +9,30 @@ const About = () => {
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
         <h1
             class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl  text-gray-900 mb-5 md:text-5xl md:leading-normal">
-            Control your Finances with our <span class="text-indigo-600">Smart Tool </span>
+            About <span class="text-blue-400">Darna capital </span>
         </h1>
-        <p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">Invest
-            intelligently
-            and discover a better way to manage your entire wealth easily.</p>
-
-
+        <p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">DARNA specializes in a 
+            wide range of construction projects, including residential, commercial, and industrial developments. The company is known for its commitment to 
+            quality, safety, and innovation, consistently delivering projects that exceed client expectations.</p>
     </div>
 </section>
 <section class="py-14 lg:py-24 relative">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div class="img-box">
-                <img src="https://pagedone.io/asset/uploads/1702034769.png" alt="About Us tailwind page"
+                <img src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718138787/%E1%89%AA%E1%88%B2%E1%8A%A6%E1%8A%95_afb4hd.jpg" alt="About Us tailwind page"
                     class="max-lg:mx-auto" />
             </div>
             <div class="lg:pl-[100px] flex items-center">
                 <div class="data w-full">
                     <h2
                         class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                        About
-                        Us </h2>
+                        Vision</h2>
                     <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                        Driven by a passion for seamless user experiences, we've meticulously curated pagedone
-                        to empower creators, designers, and developers alike. Our mission is to provide a
-                        comprehensive toolkit,
-                        enabling you to build intuitive, beautiful interfaces that resonate with users on every
-                        interaction.
+                    To be a leader in the construction industry, recognized for:
+Innovation and sustainability: Pioneering new building methods and technologies that minimize environmental impact.
+Exceptional client experiences: Building trust and exceeding expectations through clear communication and collaborative partnerships.
+Positive community impact: Contributing to the development of thriving and sustainable communities.
                     </p>
                 </div>
             </div>
@@ -49,22 +45,18 @@ const About = () => {
 
             <div class="lg:pr-24 flex items-center">
                 <div class="data w-full">
-                    <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
+                    <img src="https://collection.cloudinary.com/diulu4bz3/0ee01b927d74cce852c34aa760ff5424" alt="About Us tailwind page"
                         class="block lg:hidden mb-9 mx-auto" />
-                    <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">We
-                        are Creative Since 2005</h2>
+                    <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">Mission</h2>
                     <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                        Pagedone isn’t just a collection of components and guidelines; it's a philosophy. We go
-                        beyond aesthetics, prioritizing accessibility, scalability, and usability. Every element,
-                        from the tiniest
-                        detail to the grandest layout, is meticulously crafted to enhance functionality and elevate
-                        user
-                        satisfaction.
+                    We are dedicated to delivering high-quality, innovative construction projects that are completed on time and within budget.
+We foster a collaborative and inclusive work environment that empowers our team and celebrates diversity.
+We prioritize safety and environmental responsibility in all our practices.
                     </p>
                 </div>
             </div>
             <div class="img-box ">
-                <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
+                <img src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718139122/mission_xvaigj.jpg" alt="About Us tailwind page"
                     class="hidden lg:block " />
             </div>
         </div>
@@ -72,7 +64,7 @@ const About = () => {
 </section>
 <section class="py-20 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 class="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">Our results in numbers</h2>
+        <h2 class="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">Darna Capital result</h2>
         <div class="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
             <div
                 class="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
@@ -104,7 +96,7 @@ const About = () => {
                 class="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
                 <div class="flex gap-5">
                     <div class="font-manrope text-2xl font-bold text-indigo-600">
-                        625+
+                        25+
                     </div>
                     <div class="flex-1">
                         <h4 class="text-xl text-gray-900 font-semibold mb-2">Projects Completed</h4>

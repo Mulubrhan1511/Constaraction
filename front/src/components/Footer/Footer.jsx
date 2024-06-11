@@ -49,8 +49,7 @@ const Footer = () => {
             Construction
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+            DARNA specializes in a wide range of construction projects, including residential, commercial, and industrial developments
             </p>
           </div>
 
@@ -108,11 +107,11 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
+                  <p>Ethiopia, Adis Ababa</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+91 123456789</p>
+                  <p>(+251) 91 170 3505</p>
                 </div>
               </div>
             </div>
