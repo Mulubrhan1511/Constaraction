@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { RiMapPin2Fill, RiPhoneFill, RiArrowRightSLine, RiArrowLeftSLine, RiSearchLine } from 'react-icons/ri';
 import DarkMode from './DarkMode';
@@ -17,29 +17,34 @@ const Navbar2 = () => {
   };
 
   return (
-    <div className='relative z-10 py-8 lg:pt-6 lg:pb-14'>
-      <div className='container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0'>
+    <div className='relative  lg:sticky top-0 z-10 py-8 lg:pt-6 lg:pb-14 bg-white'>
+      <div className=' container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0'>
+        {/* logo */}
         <div className='flex justify-center lg:justify-normal'>
-          <Link to="#home" onClick={() => onUpdateActiveLink('home')}>
-            <img src={Logo} alt='Logo' />
-          </Link>
+        <Link to="#home" onClick={() => onUpdateActiveLink('home')}>
+              <img src={Logo} alt='Logo' />
+            </Link>
         </div>
         <div>
           <div className='flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0'>
+            {/* location */}
             <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
               <RiMapPin2Fill className='text-2xl text-accent' />
               <div className='text-secondary'>Adis Ababa, Ethiopia</div>
             </div>
+            {/* phone */}
             <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
               <RiPhoneFill className='text-2xl text-accent' />
               <div className='text-secondary'>(+251) 91 170 3505</div>
             </div>
+            {/* dark mode */}
             <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
               <DarkMode />
             </div>
             <button className='btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0'>
               Call now
             </button>
+            {/* mobile nav */}
             <nav
               className={`mnav bg-white fixed w-[300px] top-0 h-screen ${
                 isNavOpen ? 'left-0' : '-left-[300px]'
@@ -57,16 +62,15 @@ const Navbar2 = () => {
               </div>
 
               <div className='px-12 flex flex-col gap-y-12 h-full'>
-                <Link to="#home" onClick={() => {
-                  handleNavToggle();
-                  onUpdateActiveLink('home');
-                }}>
+                {/* logo */}
+                <Link to="/" onClick={handleNavToggle}>
                   <img src={Logo} alt='Logo' />
                 </Link>
+                {/* list */}
                 <ul className='flex flex-col gap-y-5'>
                   <li>
                     <Link
-                      smooth to="#home"
+                      to="/"
                       className='text-secondary hover:text-accent transition-all duration-300'
                       onClick={() => {
                         onUpdateActiveLink('home');
@@ -78,7 +82,7 @@ const Navbar2 = () => {
                   </li>
                   <li>
                     <Link
-                      smooth to="#about"
+                      to="/about"
                       className='text-secondary hover:text-accent transition-all duration-300'
                       onClick={() => {
                         onUpdateActiveLink('about');
@@ -88,9 +92,45 @@ const Navbar2 = () => {
                       About us
                     </Link>
                   </li>
-                  {/* Add more links as needed */}
+                  <li>
+                    <Link
+                      to="/services"
+                      className='text-secondary hover:text-accent transition-all duration-300'
+                      onClick={() => {
+                        onUpdateActiveLink('services');
+                        handleNavToggle();
+                      }}
+                    >
+                      Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/blog"
+                      className='text-secondary hover:text-accent transition-all duration-300'
+                      onClick={() => {
+                        onUpdateActiveLink('blog');
+                        handleNavToggle();
+                      }}
+                    >
+                      Blog
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/contact"
+                      className='text-secondary hover:text-accent transition-all duration-300'
+                      onClick={() => {
+                        onUpdateActiveLink('contact');
+                        handleNavToggle();
+                      }}
+                    >
+                      Contact us
+                    </Link>
+                  </li>
                 </ul>
 
+                {/* form */}
                 <form className='relative flex gap-x-[10px]'>
                   <label htmlFor="mnav-search-input">
                     <RiSearchLine className='text-2xl text-accent' />
@@ -105,27 +145,54 @@ const Navbar2 = () => {
               </div>
             </nav>
 
+            {/* desktop nav */}
             <nav className='bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between lg:px-[50px]'>
               <ul className='flex gap-x-4'>
                 <li>
+                <Link
+                smooth to="#home"
+                className={`text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'home' ? 'active' : ''}`}
+                onClick={() => onUpdateActiveLink('home')}
+              >
+                Home
+              </Link>
+                </li>
+                <li>
+                <Link
+                smooth to="#about"
+                className={`text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'about' ? 'active' : ''}`}
+                onClick={() => onUpdateActiveLink('about')}
+              >
+                About
+              </Link>
+                </li>
+                <li>
                   <Link
-                    smooth to="#home"
-                    className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'home' ? 'active' : ''}`}
-                    onClick={() => onUpdateActiveLink('home')}
+                    to="/services"
+                    className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'services' ? 'active' : ''}`}
+                    onClick={() => onUpdateActiveLink('services')}
                   >
-                    Home
+                    Services
                   </Link>
                 </li>
                 <li>
                   <Link
-                    smooth to="#about"
-                    className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'about' ? 'active' : ''}`}
-                    onClick={() => onUpdateActiveLink('about')}
+                    to="/blog"
+                    className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'blog' ? 'active' : ''}`}
+                    onClick={() => onUpdateActiveLink('blog')}
                   >
-                    About
+                    Blog
                   </Link>
                 </li>
-                {/* Add more links as needed */}
+                <li>
+                  <Link
+                    to="/contact"
+                    className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'contact' ? 'active' : ''}`}
+                    onClick={() => onUpdateActiveLink('contact')}
+                  >
+                    Contact
+                  </Link>
+                </li>
               </ul>
 
               <form className='relative flex gap-x-[10px]'>

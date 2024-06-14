@@ -11,7 +11,7 @@ import NewsletterSection from '../NewsletterSection/NewsletterSection'
 
 const Home = () => {
   return (
-    <div>
+    <div className='py-10'>
        <Hero2 />
       <Services />
       

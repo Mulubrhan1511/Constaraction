@@ -4,7 +4,7 @@ import Team from '../Team.jsx/Team'
 
 const About = () => {
   return (
-    <div>
+    <div className='py-14'>
         <section class="py-14 lg:py-24 relative z-0 bg-gray-50">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
         <h1

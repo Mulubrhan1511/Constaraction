@@ -21,14 +21,18 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
+      <div className="bg-white dark:bg-gray-900 dark:text-white">
         <Navbar2 />
+        <div className="">
         <section id="home">
           <Home />
         </section>
         <section id="about">
           <About />
         </section>
+        </div>
+
+        
         <Footer />
       </div>
     </BrowserRouter>
