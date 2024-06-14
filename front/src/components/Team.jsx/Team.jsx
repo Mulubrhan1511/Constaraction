@@ -14,7 +14,7 @@ const Team = () => {
   
 
   return (
-    <div className="mt-14 mb-12">
+    <div className=" ">
       <div data-aos="fade-up" className="container">
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
@@ -27,7 +27,7 @@ const Team = () => {
         <div>
           <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 place-items-center gap-5">
             {/* card section */}
-            <div data-aos="fade-up" data-aos-delay="0" className="card w-[270px] py-8 px-14 text-white text-center">
+            <div data-aos="fade-up" data-aos-delay="0" className="card w-[270px]  px-14 text-white text-center">
               <img className="mx-auto -mb-[20px]" src={team} alt="" />
               <h2 className="text-[28px] font-medium leading-9 mb-[7px]">Ngus Teklay</h2>
               <p className="font-normal leading-5 uppercase">General manager</p>
@@ -38,7 +38,7 @@ const Team = () => {
                 <img src={fb} alt="" className="icon cursor-pointer" />
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" className="card w-[270px] py-8 px-14 text-white text-center">
+            <div data-aos="fade-up" data-aos-delay="200" className="card w-[270px]  px-14 text-white text-center">
               <img className="mx-auto -mb-[20px]" src={team2} alt="" />
               <h2 className="text-[28px] font-medium leading-9 mb-[7px]">second member</h2>
               <p className="font-normal leading-5 uppercase">project developer</p>

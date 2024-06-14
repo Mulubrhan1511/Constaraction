@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Navbar2 from "./components/Navbar/Navbar2";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
+import Services from "./components/Services/Services";
 
 const App = () => {
   React.useEffect(() => {
@@ -21,7 +22,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="bg-white dark:bg-gray-900 dark:text-white">
+      <div className="bg-white dark:bg-blue-950 dark:text-white">
         <Navbar2 />
         <div className="">
           <section id="home">
@@ -29,6 +30,9 @@ const App = () => {
           </section>
           <section id="about">
             <About />
+          </section>
+          <section id="services">
+            <Services />
           </section>
         </div>
         <Footer />
