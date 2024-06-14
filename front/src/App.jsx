@@ -1,19 +1,14 @@
 import React from "react";
-
+import { BrowserRouter } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 
 import Footer from "./components/Footer/Footer";
 import Navbar2 from "./components/Navbar/Navbar2";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 
-
-
 const App = () => {
-  
   React.useEffect(() => {
     AOS.init({
       offset: 100,
@@ -25,23 +20,18 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
-      <Navbar2 />
-        <div>
-          <BrowserRouter>
-            <Routes>
-             
-              <Route path='/' element={<Home />} />
-              <Route path='/about' element={<About />} />
-             
-            </Routes>
-          </BrowserRouter>
-        </div>
-      
-      
-      <Footer />
-      
-    </div>
+    <BrowserRouter>
+      <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
+        <Navbar2 />
+        <section id="home">
+          <Home />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 };
 
