@@ -3,7 +3,7 @@ import Hero2 from '../Hero/Hero2'
 import Services from '../Services/Services'
 
 import Testimonials from '../Testimonials/Testimonials'
-import Team from '../Team.jsx/Team'
+// import Team from '../Team.jsx/Team'
 import Faq from '../Faq/Faq'
 import Department from '../Departments/Department'
 import Blog from '../Blog/Blog'
@@ -16,11 +16,11 @@ const Home = () => {
       <Services />
       
       <Testimonials />
-      <Team />
-      <Faq />
-      <Department />
-      <Blog />
-      <NewsletterSection />
+      {/* <Team /> */}
+      {/* <Faq /> */}
+      {/* <Department /> */}
+      {/* <Blog /> */}
+      {/* <NewsletterSection /> */}
     </div>
   )
 }

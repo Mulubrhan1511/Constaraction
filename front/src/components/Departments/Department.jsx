@@ -21,7 +21,7 @@ const Department = () => {
 
   return (
     <div className='departments section'>
-      <h2 className='faq__title h2 text-center mb-[50px]'>Departments</h2>
+      <h2 className='faq__title h2 text-center mb-[50px]'>Summery service of Darna capital</h2>
       <div
         className='departments__bg bg-accent/40 bg-cover xl:bg-auto bg-center
         bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] px-6 xl:px-0 py-12
