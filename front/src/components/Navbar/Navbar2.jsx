@@ -7,9 +7,12 @@ import Logo from '../../assets/logo.svg';
 const Navbar2 = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [activeLink, setActiveLink] = useState('home');
+  const [paddingBottom, setPaddingBottom] = useState(0);
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+    setPaddingBottom(20); // Set the desired padding value here
+    setTimeout(() => setPaddingBottom(0), 500); // Reset padding after 500ms
   }
 
   const handleNavToggle = () => {
@@ -17,13 +20,13 @@ const Navbar2 = () => {
   };
 
   return (
-    <div className='relative  lg:sticky top-0 z-10 py-8 lg:pt-6 lg:pb-14 bg-white'>
-      <div className=' container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0'>
+    <div className='relative lg:sticky top-0 z-10 py-8 lg:pt-6 lg:pb-14 bg-white'>
+      <div className='container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0'>
         {/* logo */}
         <div className='flex justify-center lg:justify-normal'>
-        <Link to="#home" onClick={() => onUpdateActiveLink('home')}>
-              <img src={Logo} alt='Logo' />
-            </Link>
+          <Link to="#home" onClick={() => onUpdateActiveLink('home')}>
+            <img src={Logo} alt='Logo' />
+          </Link>
         </div>
         <div>
           <div className='flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0'>
@@ -146,25 +149,25 @@ const Navbar2 = () => {
             </nav>
 
             {/* desktop nav */}
-            <nav className='bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between lg:px-[50px]'>
+            <nav className='bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between lg:px-[50px]' style={{ paddingBottom: `${paddingBottom}px` }}>
               <ul className='flex gap-x-4'>
                 <li>
-                <Link
-                smooth to="#home"
-                className={`text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'home' ? 'active' : ''}`}
-                onClick={() => onUpdateActiveLink('home')}
-              >
-                Home
-              </Link>
+                  <Link
+                    smooth to="#home"
+                    className={`text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'home' ? 'active' : ''}`}
+                    onClick={() => onUpdateActiveLink('home')}
+                  >
+                    Home
+                  </Link>
                 </li>
                 <li>
-                <Link
-                smooth to="#about"
-                className={`text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'about' ? 'active' : ''}`}
-                onClick={() => onUpdateActiveLink('about')}
-              >
-                About
-              </Link>
+                  <Link
+                    smooth to="#about"
+                    className={`text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'about' ? 'active' : ''}`}
+                    onClick={() => onUpdateActiveLink('about')}
+                  >
+                    About
+                  </Link>
                 </li>
                 <li>
                   <Link
