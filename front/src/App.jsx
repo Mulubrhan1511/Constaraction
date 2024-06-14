@@ -8,6 +8,7 @@ import Navbar2 from "./components/Navbar/Navbar2";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 import Services from "./components/Services/Services";
+import Hirarchy from "./components/Hirarchy/Hirarchy";
 
 const App = () => {
   React.useEffect(() => {
@@ -33,6 +34,9 @@ const App = () => {
           </section>
           <section id="services">
             <Services />
+          </section>
+          <section id="hirarchy">
+            <Hirarchy />
           </section>
         </div>
         <Footer />

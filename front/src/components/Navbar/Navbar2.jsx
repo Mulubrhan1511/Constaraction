@@ -200,12 +200,12 @@ const Navbar2 = () => {
             </Link>
           </li>
           <li>
-            <Link
-              to="/blog"
-              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'blog' ? 'active' : ''}`}
-              onClick={() => onUpdateActiveLink('blog')}
+          <Link
+              smooth to="#hirarchy"
+              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'hirarchy' ? 'active' : ''}`}
+              onClick={() => onUpdateActiveLink('hirarchy')}
             >
-              Blog
+              Hirarchy
             </Link>
           </li>
           <li>
