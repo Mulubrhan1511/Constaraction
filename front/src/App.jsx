@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 import Footer from "./components/Footer/Footer";
-import Popup from "./components/Popup/Popup";
 import Navbar2 from "./components/Navbar/Navbar2";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
@@ -14,11 +13,7 @@ import About from "./components/Pages/About";
 
 
 const App = () => {
-  const [orderPopup, setOrderPopup] = React.useState(false);
-
-  const handleOrderPopup = () => {
-    setOrderPopup(!orderPopup);
-  };
+  
   React.useEffect(() => {
     AOS.init({
       offset: 100,
@@ -45,7 +40,7 @@ const App = () => {
       
       
       <Footer />
-      <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+      
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero2 from '../Hero/Hero2'
 import Services from '../Services/Services'
-import Appointment from '../Appoitment/Appointment'
+
 import Testimonials from '../Testimonials/Testimonials'
 import Team from '../Team.jsx/Team'
 import Faq from '../Faq/Faq'
@@ -14,7 +14,7 @@ const Home = () => {
     <div>
        <Hero2 />
       <Services />
-      <Appointment />
+      
       <Testimonials />
       <Team />
       <Faq />

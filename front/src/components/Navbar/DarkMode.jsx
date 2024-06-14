@@ -1,6 +1,5 @@
 import React from 'react'
-import LightButton from '../../assets/website/lightmode.png'
-import DarkButton from '../../assets/website/darkmode.png'
+
 import { RiSunFill } from "react-icons/ri";
 
 
