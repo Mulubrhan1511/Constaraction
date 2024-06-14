@@ -36,7 +36,7 @@ const Navbar2 = () => {
   }, []);
 
   return (
-    <div className={`relative lg:sticky top-0 z-10 py-8 lg:pt-6 lg:pb-14 bg-white ${isScrolled ? 'shadow-lg' : ''}`}>
+    <div className={`relative lg:sticky top-0 z-10 py-8 lg:pt-6 lg:pb-14  ${isScrolled ? '' : ''}`}>
       {!isScrolled && (
         <div className='container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0'>
           {/* logo */}
