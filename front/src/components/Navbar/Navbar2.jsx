@@ -36,7 +36,7 @@ const Navbar2 = () => {
   }, []);
 
   return (
-    <div className={`relative lg:sticky top-0 z-10 py-8 lg:pt-6 lg:pb-14  ${isScrolled ? '' : ''}`}>
+    <div className={`relative lg:sticky top-0 z-10 py-8 lg:pt-6 lg:pb-14 bg-white ${isScrolled ? 'shadow-lg' : ''}`}>
       {!isScrolled && (
         <div className='container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0'>
           {/* logo */}
@@ -65,111 +65,112 @@ const Navbar2 = () => {
                 Call now
               </button>
               {/* mobile nav */}
-              <nav
-                className={`mnav bg-white fixed w-[300px] top-0 h-screen ${
-                  isNavOpen ? 'left-0' : '-left-[300px]'
-                } shadow-2xl lg:hidden transition-all duration-300 z-20`}
-              >
-                <div
-                  className='mnav__close-btn bg-primary w-8 h-8 relative -right-full top-8 flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all'
-                  onClick={handleNavToggle}
-                >
-                  {isNavOpen ? (
-                    <RiArrowLeftSLine className='mnav__close-btn-icon text-2xl text-white' />
-                  ) : (
-                    <RiArrowRightSLine className='mnav__close-btn-icon text-2xl text-white' />
-                  )}
-                </div>
-
-                <div className='px-12 flex flex-col gap-y-12 h-full'>
-                  {/* logo */}
-                  <Link to="/" onClick={handleNavToggle}>
-                    <img src={Logo} alt='Logo' />
-                  </Link>
-                  {/* list */}
-                  <ul className='flex flex-col gap-y-5'>
-                    <li>
-                      <Link
-                        to="/"
-                        className='text-secondary hover:text-accent transition-all duration-300'
-                        onClick={() => {
-                          onUpdateActiveLink('home');
-                          handleNavToggle();
-                        }}
-                      >
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/about"
-                        className='text-secondary hover:text-accent transition-all duration-300'
-                        onClick={() => {
-                          onUpdateActiveLink('about');
-                          handleNavToggle();
-                        }}
-                      >
-                        About us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/services"
-                        className='text-secondary hover:text-accent transition-all duration-300'
-                        onClick={() => {
-                          onUpdateActiveLink('services');
-                          handleNavToggle();
-                        }}
-                      >
-                        Services
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/blog"
-                        className='text-secondary hover:text-accent transition-all duration-300'
-                        onClick={() => {
-                          onUpdateActiveLink('blog');
-                          handleNavToggle();
-                        }}
-                      >
-                        Blog
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/contact"
-                        className='text-secondary hover:text-accent transition-all duration-300'
-                        onClick={() => {
-                          onUpdateActiveLink('contact');
-                          handleNavToggle();
-                        }}
-                      >
-                        Contact us
-                      </Link>
-                    </li>
-                  </ul>
-
-                  {/* form */}
-                  <form className='relative flex gap-x-[10px]'>
-                    <label htmlFor="mnav-search-input">
-                      <RiSearchLine className='text-2xl text-accent' />
-                    </label>
-                    <input 
-                      type='text'
-                      id='mnav-search-input'
-                      placeholder='Search...'
-                      className='outline-none w-[160] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic'
-                    />
-                  </form>
-                </div>
-              </nav>
+              
             </div>
           </div>
         </div>
       )}
+      <nav
+              className={`mnav bg-white fixed w-[300px] top-0 h-screen ${
+                isNavOpen ? 'left-0' : '-left-[300px]'
+              } shadow-2xl lg:hidden transition-all duration-300 z-20`}
+            >
+              <div
+                className='mnav__close-btn bg-primary w-8 h-8 relative -right-full top-8 flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all'
+                onClick={handleNavToggle}
+              >
+                {isNavOpen ? (
+                  <RiArrowLeftSLine className='mnav__close-btn-icon text-2xl text-white' />
+                ) : (
+                  <RiArrowRightSLine className='mnav__close-btn-icon text-2xl text-white' />
+                )}
+              </div>
+
+              <div className='px-12 flex flex-col gap-y-12 h-full'>
+                {/* logo */}
+                <Link to="/" onClick={handleNavToggle}>
+                  <img src={Logo} alt='Logo' />
+                </Link>
+                {/* list */}
+                <ul className='flex flex-col gap-y-5'>
+                  <li>
+                    <Link
+                      to="/"
+                      className='text-secondary hover:text-accent transition-all duration-300'
+                      onClick={() => {
+                        onUpdateActiveLink('home');
+                        handleNavToggle();
+                      }}
+                    >
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about"
+                      className='text-secondary hover:text-accent transition-all duration-300'
+                      onClick={() => {
+                        onUpdateActiveLink('about');
+                        handleNavToggle();
+                      }}
+                    >
+                      About us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/services"
+                      className='text-secondary hover:text-accent transition-all duration-300'
+                      onClick={() => {
+                        onUpdateActiveLink('services');
+                        handleNavToggle();
+                      }}
+                    >
+                      Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/blog"
+                      className='text-secondary hover:text-accent transition-all duration-300'
+                      onClick={() => {
+                        onUpdateActiveLink('blog');
+                        handleNavToggle();
+                      }}
+                    >
+                      Blog
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/contact"
+                      className='text-secondary hover:text-accent transition-all duration-300'
+                      onClick={() => {
+                        onUpdateActiveLink('contact');
+                        handleNavToggle();
+                      }}
+                    >
+                      Contact us
+                    </Link>
+                  </li>
+                </ul>
+
+                {/* form */}
+                <form className='relative flex gap-x-[10px]'>
+                  <label htmlFor="mnav-search-input">
+                    <RiSearchLine className='text-2xl text-accent' />
+                  </label>
+                  <input 
+                    type='text'
+                    id='mnav-search-input'
+                    placeholder='Search...'
+                    className='outline-none w-[160] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic'
+                  />
+                </form>
+              </div>
+            </nav>
       {/* desktop nav */}
-      <nav className={`bg-white w-full left-0 shadow-custom1 h-16 rounded-[10px] ${isScrolled ? 'fixed top-0 z-50' : 'lg:absolute lg:-bottom-[86px]'} lg:flex lg:items-center lg:justify-between lg:px-[50px]`} style={{ paddingBottom: `${paddingBottom}px` }}>
+      <nav className={`bg-white w-full left-0 shadow-custom1 h-16 rounded-[10px] ${isScrolled ? 'fixed top-0 z-50' : 'lg:absolute lg:-bottom-[86px]'} lg:flex lg:items-center lg:justify-between lg:px-[50px] hidden lg:block`} style={{ paddingBottom: `${paddingBottom}px` }}>
         <ul className='flex gap-x-4'>
           <li>
             <Link
