@@ -175,7 +175,7 @@ const Navbar2 = () => {
           <li>
             <Link
               smooth to="#home"
-              className={`text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'home' ? 'active' : ''}`}
+              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'home' ? 'active' : ''}`}
               onClick={() => onUpdateActiveLink('home')}
             >
               Home
@@ -184,7 +184,7 @@ const Navbar2 = () => {
           <li>
             <Link
               smooth to="#about"
-              className={`text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'about' ? 'active' : ''}`}
+              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'about' ? 'active' : ''}`}
               onClick={() => onUpdateActiveLink('about')}
             >
               About
