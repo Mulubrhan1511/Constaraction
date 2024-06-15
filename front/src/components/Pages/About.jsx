@@ -26,7 +26,7 @@ integrated with local manufacturers.
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div class="img-box">
-                <img src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718138787/%E1%89%AA%E1%88%B2%E1%8A%A6%E1%8A%95_afb4hd.jpg" alt="About Us tailwind page"
+                <img src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718478374/mission_cl1hhn.jpg" alt="About Us tailwind page"
                     class="max-lg:mx-auto" />
             </div>
             <div class="lg:pl-[100px] flex items-center">
@@ -51,8 +51,8 @@ Positive community impact: Contributing to the development of thriving and susta
 
             <div class="lg:pr-24 flex items-center">
                 <div class="data w-full">
-                    {/* <img src="https://collection.cloudinary.com/diulu4bz3/0ee01b927d74cce852c34aa760ff5424" alt="About Us tailwind page" */}
-                        {/* class="block lg:hidden mb-9 mx-auto" /> */}
+                    {/* <img src="https://collection.cloudinary.com/diulu4bz3/0ee01b927d74cce852c34aa760ff5424" alt="About Us tailwind page"
+                        class="block lg:hidden mb-9 mx-auto" /> */}
                     <h2 class="font-manrope font-bold text-4xl lg:text-5xl  text-black mb-9 max-lg:text-center">Mission</h2>
                     <p class="font-normal text-xl leading-8 text-gray-500 lg:text-2xl max-lg:text-center max-w-2xl mx-auto">
                     We are dedicated to delivering high-quality, innovative construction projects that are completed on time and within budget.
