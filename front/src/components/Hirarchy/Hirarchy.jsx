@@ -8,19 +8,19 @@ const Hierarchy = () => {
       <div className="container mx-auto text-center pt-24">
         <div className="items-center justify-center flex">
           <div className="text-center">
-          <h1 className="text-3xl ">Organization Flow Chart</h1>
+          <h1 className="text-3xl ">Organization Hirarchy</h1>
             {/* CEO */}
             <div className="flex flex-col justify-center items-center">
               <div className="w-16">
                 <img
                   className="block rounded-full m-auto shadow-md"
                   alt="Duc Sun"
-                  src="https://randomuser.me/api/portraits/men/12.jpg"
+                  src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718460835/manager_p6mrai.jpg"
                 />
               </div>
               <div className="text-gray-600">
-                <p>Duc Sun</p>
-                <p>CEO</p>
+                <p>Ngus teklay</p>
+                <p>General Manager</p>
               </div>
             </div>
             <ul className="flex flex-row mt-10 justify-center">
@@ -41,12 +41,12 @@ const Hierarchy = () => {
                         <img
                           className="block rounded-full m-auto shadow-md"
                           alt="Leo Six"
-                          src="https://randomuser.me/api/portraits/men/83.jpg"
+                          src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718461148/depp_p8rsfb.jpg"
                         />
                       </div>
                       <div className="text-gray-600">
-                        <p>Leo Six</p>
-                        <p>Management</p>
+                        <p>department</p>
+                        <p>diff dipartments</p>
                       </div>
                     </div>
                     <ul className="flex flex-row mt-10 justify-center">
@@ -67,12 +67,12 @@ const Hierarchy = () => {
                                 <img
                                   className="block rounded-full m-auto shadow-md"
                                   alt="Tab Han"
-                                  src="https://randomuser.me/api/portraits/men/46.jpg"
+                                  src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718461149/design_pc7kyf.jpg"
                                 />
                               </div>
                               <div className="text-gray-600">
-                                <p>Tab Han</p>
-                                <p>Project Manager</p>
+                                <p>Design and engineering</p>
+                                {/* <p>  </p> */}
                               </div>
                             </div>
                             <ul className="flex flex-row mt-10 justify-center">
@@ -93,12 +93,13 @@ const Hierarchy = () => {
                                         <img
                                           className="block rounded-full m-auto shadow-md"
                                           alt="Daniel Zhou"
-                                          src="https://randomuser.me/api/portraits/men/76.jpg"
+                                          src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718461149/const_eap2qn.jpg"
                                         />
                                       </div>
                                       <div className="text-gray-600">
-                                        <p>Daniel Zhou</p>
-                                        <p>Team Lead</p>
+                                        <p>
+                                        construction department</p>
+                                        {/* <p>Team Lead</p> */}
                                       </div>
                                     </div>
                                     <ul className="flex flex-row mt-10 justify-center">
@@ -119,12 +120,12 @@ const Hierarchy = () => {
                                                 <img
                                                   className="block rounded-full m-auto shadow-md"
                                                   alt="Patrick Wang"
-                                                  src="https://randomuser.me/api/portraits/men/55.jpg"
+                                                  src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718461148/finam_mh5n4i.jpg"
                                                 />
                                               </div>
                                               <div className="text-gray-600">
-                                                <p>Patrick Wang</p>
-                                                <p>Developer</p>
+                                                <p>finance department</p>
+                                                {/* <p>Developer</p> */}
                                               </div>
                                             </div>
                                           </div>
@@ -161,11 +162,11 @@ const Hierarchy = () => {
                         <img
                           className="block rounded-full m-auto shadow-md"
                           alt="Shi Ten"
-                          src="https://randomuser.me/api/portraits/men/43.jpg"
+                          src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718461563/hr_bki5zu.jpg"
                         />
                       </div>
                       <div className="text-gray-600">
-                        <p>Shi Ten</p>
+                        <p>Department of HR </p>
                         <p>HR</p>
                       </div>
                     </div>
@@ -188,12 +189,12 @@ const Hierarchy = () => {
                         <img
                           className="block rounded-full m-auto shadow-md"
                           alt="Shawn Mong"
-                          src="https://randomuser.me/api/portraits/men/97.jpg"
+                          src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718461476/law_qgl3tz.jpg"
                         />
                       </div>
                       <div className="text-gray-600">
-                        <p>Shawn Mong</p>
-                        <p>Admin</p>
+                        <p>Department of law</p>
+                        <p></p>
                       </div>
                     </div>
                   </div>

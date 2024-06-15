@@ -49,12 +49,12 @@ const Navbar2 = () => {
             <div className='flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0'>
               {/* location */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
-                <RiMapPin2Fill className='text-2xl text-accent' />
+                <RiMapPin2Fill className='text-2xl text-DEFAULT' />
                 <div className='text-secondary'>Adis Ababa, Ethiopia</div>
               </div>
               {/* phone */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
-                <RiPhoneFill className='text-2xl text-accent' />
+                <RiPhoneFill className='text-2xl text-DEFAULT' />
                 <div className='text-secondary'>(+251) 91 170 3505</div>
               </div>
               {/* dark mode */}

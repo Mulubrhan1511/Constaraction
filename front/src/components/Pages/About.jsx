@@ -9,7 +9,7 @@ const About = () => {
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
         <h1
             class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl  text-gray-900 mb-5 md:text-5xl md:leading-normal">
-            About <span class="text-blue-400">Darna capital </span>
+            About <span class="text-blue-400">us </span>
         </h1>
         <p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">DARNA specializes in a 
             wide range of construction projects, including residential, commercial, and industrial developments. The company is known for its commitment to 
