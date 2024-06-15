@@ -209,9 +209,9 @@ const Navbar2 = () => {
             </Link>
           </li>
           <li>
-            <Link
-              to="/contact"
-              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'contact' ? 'active' : ''}`}
+          <Link
+              smooth to="#contact"
+              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'Contact' ? 'active' : ''}`}
               onClick={() => onUpdateActiveLink('contact')}
             >
               Contact

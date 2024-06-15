@@ -1,4 +1,5 @@
 import React from 'react';
+import Testimonials from '../Testimonials/Testimonials';
 
 const Hierarchy = () => {
   return (
@@ -203,7 +204,7 @@ const Hierarchy = () => {
           </div>
         </div>
       </div>
-      
+      <Testimonials />
     </div>
   );
 };
