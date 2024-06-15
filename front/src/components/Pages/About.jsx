@@ -11,7 +11,7 @@ const About = () => {
             class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl  text-gray-900 mb-5 md:text-5xl md:leading-normal">
             About <span class="text-blue-400">us </span>
         </h1>
-        <p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">DARNA Construction
+        <p class="max-w-xxl mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9 ">DARNA Construction
              and Business PLC were established at 2024 GC at Tigray region Mekelle city. It is private limited company that 
              involves construction like building construction, road construction, site work and finishing works. DARNA. Construction
               and business plc targeted in the near future fully involve in real estate development. DARNA construction and Business
@@ -34,7 +34,7 @@ integrated with local manufacturers.
                     <h2
                         class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                         Vision</h2>
-                    <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+                    <p class="font-normal text-xl leading- text-gray-500 max-lg:text-center max-w-2xl mx-auto">
                     To be a leader in the construction industry, recognized for:
 Innovation and sustainability: Pioneering new building methods and technologies that minimize environmental impact.
 Exceptional client experiences: Building trust and exceeding expectations through clear communication and collaborative partnerships.

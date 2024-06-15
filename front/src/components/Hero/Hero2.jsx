@@ -21,7 +21,7 @@ const Hero2 = () => {
                         </div> */}
 
                     </div>
-                    <h1 className='h1 mb-6'>Darna Elevat Your Vision & Building Your Future</h1>
+                    <h1 className='h1 mb-6'>Darna construction will Building Your Future.</h1>
                     <p className='mb-[42px] md:max-w-xl'>
                     DARNA specializes in a wide range of construction projects, including residential, 
                     commercial, and industrial developments. The company is known for its commitment to quality,
