@@ -11,9 +11,15 @@ const About = () => {
             class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl  text-gray-900 mb-5 md:text-5xl md:leading-normal">
             About <span class="text-blue-400">us </span>
         </h1>
-        <p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">DARNA specializes in a 
-            wide range of construction projects, including residential, commercial, and industrial developments. The company is known for its commitment to 
-            quality, safety, and innovation, consistently delivering projects that exceed client expectations.</p>
+        <p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">DARNA Construction
+             and Business PLC were established at 2024 GC at Tigray region Mekelle city. It is private limited company that 
+             involves construction like building construction, road construction, site work and finishing works. DARNA. Construction
+              and business plc targeted in the near future fully involve in real estate development. DARNA construction and Business
+               plc believe the most company which creates a difference construction and real estate development by quality and safety 
+               construction. Using modern technology, very qualified professionals and satisfied clients in east Africa.
+In addition DARNA involve in business like import construction materials and supplies construction materials in local market 
+integrated with local manufacturers.
+</p>
     </div>
 </section>
 <section class="py-14 lg:py-24 relative">
