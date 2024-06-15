@@ -203,12 +203,7 @@ const Hierarchy = () => {
           </div>
         </div>
       </div>
-      <a
-        className="text-md underline text-gray-500 hover:text-gray-700 cursor-pointer bottom-0"
-        href="https://codesandbox.io/s/github/ravisankarchinnam/tailwindcss-flow-chart"
-      >
-        React.js version
-      </a>
+      
     </div>
   );
 };
