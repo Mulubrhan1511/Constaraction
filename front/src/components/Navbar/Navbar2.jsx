@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { RiMapPin2Fill, RiPhoneFill, RiArrowRightSLine, RiArrowLeftSLine, RiSearchLine } from 'react-icons/ri';
 import DarkMode from './DarkMode';
-import Logo from '../../assets/logo.svg';
+import Logo from '../../assets/darlogo.png';
 
 const Navbar2 = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
