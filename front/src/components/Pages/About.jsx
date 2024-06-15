@@ -11,7 +11,7 @@ const About = () => {
             class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl  text-gray-900 mb-5 md:text-5xl md:leading-normal">
             About <span class="text-blue-400">us </span>
         </h1>
-        <p class="max-w-xxl mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9 ">DARNA Construction
+        <p class="max-w-5xl mx-auto text-center text-base lg:text-2xl font-normal leading-7 text-gray-500 mb-9 ">DARNA Construction
              and Business PLC were established at 2024 GC at Tigray region Mekelle city. It is private limited company that 
              involves construction like building construction, road construction, site work and finishing works. DARNA. Construction
               and business plc targeted in the near future fully involve in real estate development. DARNA construction and Business
@@ -34,7 +34,7 @@ integrated with local manufacturers.
                     <h2
                         class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                         Vision</h2>
-                    <p class="font-normal text-xl leading- text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+                    <p class="font-normal text-1xl leading- text-gray-500 lg:text-2xl max-lg:text-center max-w-2xl mx-auto">
                     To be a leader in the construction industry, recognized for:
 Innovation and sustainability: Pioneering new building methods and technologies that minimize environmental impact.
 Exceptional client experiences: Building trust and exceeding expectations through clear communication and collaborative partnerships.
@@ -51,10 +51,10 @@ Positive community impact: Contributing to the development of thriving and susta
 
             <div class="lg:pr-24 flex items-center">
                 <div class="data w-full">
-                    <img src="https://collection.cloudinary.com/diulu4bz3/0ee01b927d74cce852c34aa760ff5424" alt="About Us tailwind page"
-                        class="block lg:hidden mb-9 mx-auto" />
-                    <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">Mission</h2>
-                    <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+                    {/* <img src="https://collection.cloudinary.com/diulu4bz3/0ee01b927d74cce852c34aa760ff5424" alt="About Us tailwind page" */}
+                        {/* class="block lg:hidden mb-9 mx-auto" /> */}
+                    <h2 class="font-manrope font-bold text-4xl lg:text-5xl  text-black mb-9 max-lg:text-center">Mission</h2>
+                    <p class="font-normal text-xl leading-8 text-gray-500 lg:text-2xl max-lg:text-center max-w-2xl mx-auto">
                     We are dedicated to delivering high-quality, innovative construction projects that are completed on time and within budget.
 We foster a collaborative and inclusive work environment that empowers our team and celebrates diversity.
 We prioritize safety and environmental responsibility in all our practices.
@@ -63,14 +63,14 @@ We prioritize safety and environmental responsibility in all our practices.
             </div>
             <div class="img-box ">
                 <img src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718139122/mission_xvaigj.jpg" alt="About Us tailwind page"
-                    class="hidden lg:block " />
+                    class=" lg:block " />
             </div>
         </div>
     </div>
 </section>
 <section class="py-20 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 class="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">Darna Capital result</h2>
+        <h2 class="font-manrope text-xl text-center text-gray-900 font-bold mb-14">Darna Capital result</h2>
         <div class="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
             <div
                 class="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
