@@ -219,7 +219,7 @@ const Navbar2 = () => {
           </li>
         </ul>
 
-        <form className='relative flex gap-x-[10px]'>
+        {/* <form className='relative flex gap-x-[10px]'>
           <label htmlFor='search-input' className='flex justify-center items-center group'>
             <RiSearchLine className='text-2xl text-accent' />
           </label>
@@ -229,7 +229,7 @@ const Navbar2 = () => {
             placeholder='Search...'
             className='outline-none w-[100px] focus:w-[180px] focus:border-b-2 focus:border-accent placeholder:italic placeholder:text-base transition-all duration-150'
           />
-        </form>
+        </form> */}
       </nav>
     </div>
   );
