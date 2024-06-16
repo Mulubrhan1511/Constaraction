@@ -205,7 +205,7 @@ const Hierarchy = () => {
           </div>
         </div>
       </div>
-      <Testimonials />
+      
     </div>
   );
 };

@@ -10,6 +10,7 @@ import About from "./components/Pages/About";
 import Services from "./components/Services/Services";
 import Hirarchy from "./components/Hirarchy/Hirarchy";
 import ContactUs from "./components/ContactUs/ContactUs";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 const App = () => {
   React.useEffect(() => {
@@ -39,6 +40,7 @@ const App = () => {
           <section id="hirarchy">
             <Hirarchy />
           </section>
+          <Testimonials />
           <section id="contact">
             <ContactUs />
           </section>
