@@ -43,7 +43,7 @@ const Services = () => {
                             {/* <img src={serviceImg2} alt="services" /> */}
                         </div>
                         <h3 className='h3 mb-[10px]'>Commercial Build-Outs</h3>
-                        <p className='font-light leading-normal max-w-[300px]'>
+                        <p className='font-light bg-white leading-normal max-w-[300px]'>
                         Commercial Construction: Office buildings, retail spaces, restaurants, warehouses, etc.. 
                         </p>
                     </div>

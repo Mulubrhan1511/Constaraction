@@ -80,7 +80,7 @@ We prioritize safety and environmental responsibility in all our practices.
                     </div>
                     <div class="flex-1">
                         <h4 class="text-xl text-gray-900 font-semibold mb-2">Company growth</h4>
-                        <p class="text-xs text-gray-500 leading-5">Company's remarkable growth journey as we
+                        <p class="text-xs text-blue-500 leading-5">Company's remarkable growth journey as we
                             continually innovate and drive towards new heights of success.</p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ We prioritize safety and environmental responsibility in all our practices.
                     </div>
                     <div class="flex-1">
                         <h4 class="text-xl text-gray-900 font-semibold mb-2">Company growth</h4>
-                        <p class="text-xs text-gray-500 leading-5">Our very talented team members are the powerhouse
+                        <p class="text-xs text-blue-500 leading-5">Our very talented team members are the powerhouse
                             of pagedone and pillars of our success. </p>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ We prioritize safety and environmental responsibility in all our practices.
                     </div>
                     <div class="flex-1">
                         <h4 class="text-xl text-gray-900 font-semibold mb-2">Projects Completed</h4>
-                        <p class="text-xs text-gray-500 leading-5">We have accomplished more than 625 projects
+                        <p class="text-xs text-blue-500 leading-5">We have accomplished more than 625 projects
                             worldwide and we are still counting many more.</p>
                     </div>
                 </div>
