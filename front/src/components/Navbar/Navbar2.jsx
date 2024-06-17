@@ -50,7 +50,7 @@ const Navbar2 = () => {
               {/* location */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
                 <RiMapPin2Fill className='text-2xl text-DEFAULT' />
-                <div className='text-white'>Adis Ababa, Ethiopia</div>
+                <div className='text-white'>Mekelle City, Tigray, Ethiopia</div>
               </div>
               {/* phone */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
@@ -221,7 +221,6 @@ const Navbar2 = () => {
             </Link>
           </li>
         </ul>
-
         {/* <form className='relative flex gap-x-[10px]'>
           <label htmlFor='search-input' className='flex justify-center items-center group'>
             <RiSearchLine className='text-2xl text-accent' />
