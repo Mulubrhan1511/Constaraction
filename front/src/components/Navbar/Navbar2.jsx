@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { RiMapPin2Fill, RiPhoneFill, RiArrowRightSLine, RiArrowLeftSLine, RiSearchLine } from 'react-icons/ri';
 import DarkMode from './DarkMode';
-import Logo from '../../assets/darlogo.png';
+import Logo from '../../assets/logo22.jpg';
 
 const Navbar2 = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -40,7 +40,7 @@ const Navbar2 = () => {
       {!isScrolled && (
         <div className='container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between '>
           {/* logo */}
-          <div className='flex justify-center lg:justify-normal'>
+          <div className='flex justify-center lg:justify-normal w-28 bg-red-400'>
             <Link to="#home" onClick={() => onUpdateActiveLink('home')}>
               <img src={Logo} alt='Logo' />
             </Link>
