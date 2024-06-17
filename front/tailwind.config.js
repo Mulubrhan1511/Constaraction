@@ -29,6 +29,7 @@ export default {
         testimonials: "url('/src/assets/testimonials/bg.svg')",
         // ...
       }
+      
     },
 
     container: {
