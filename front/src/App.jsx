@@ -25,12 +25,16 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="bg-white dark:bg-blue-950 dark:text-white">
-        <Navbar2 />
+      <div className="bg-secondary  text-white">
+        
         <div className="">
+          <div className="bg-services bg-cover">
+          <Navbar2 />
           <section id="home">
             <Home />
           </section>
+          </div>
+          
           <section id="about">
             <About />
           </section>
@@ -40,7 +44,9 @@ const App = () => {
           <section id="hirarchy">
             <Hirarchy />
           </section>
+          <section id="testimonials">
           <Testimonials />
+          </section>
           <section id="contact">
             <ContactUs />
           </section>

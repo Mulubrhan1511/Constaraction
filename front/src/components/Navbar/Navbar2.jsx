@@ -36,7 +36,7 @@ const Navbar2 = () => {
   }, []);
 
   return (
-    <div className={`relative lg:sticky top-0 z-10 py-8 lg:pt-6   ${isScrolled ? '' : ''}`}>
+    <div className={`relative lg:sticky top-0 z-10 py-8 lg:pt-6   ${isScrolled ? '' : 'bg-transparent'}`}>
       {!isScrolled && (
         <div className='container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between '>
           {/* logo */}
@@ -50,19 +50,22 @@ const Navbar2 = () => {
               {/* location */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
                 <RiMapPin2Fill className='text-2xl text-DEFAULT' />
-                <div className='text-secondary'>Adis Ababa, Ethiopia</div>
+                <div className='text-white'>Adis Ababa, Ethiopia</div>
               </div>
               {/* phone */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
                 <RiPhoneFill className='text-2xl text-DEFAULT' />
-                <div className='text-secondary'>(+251) 91 170 3505</div>
+                <div className='text-white'>(+251) 91 170 3505</div>
               </div>
               {/* dark mode */}
-              <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
+              <div className='flex justify-center text-white items-center gap-x-2 lg:justify-normal'>
                 <DarkMode />
               </div>
-              <button className='btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0'>
+              <button className='btn  btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0'>
+                <div className='text-white'>
                 Call now
+                </div>
+                
               </button>
               {/* mobile nav */}
               
@@ -96,7 +99,7 @@ const Navbar2 = () => {
                   <li>
                     <Link
                       to="/"
-                      className='text-secondary hover:text-accent transition-all duration-300'
+                      className='text-secondary hover:text-accent transition-all duration-300 '
                       onClick={() => {
                         onUpdateActiveLink('home');
                         handleNavToggle();
@@ -170,12 +173,12 @@ const Navbar2 = () => {
               </div>
             </nav>
       {/* desktop nav */}
-      <nav className={`bg-white w-full left-0 shadow-custom1 h-16 rounded-[10px] ${isScrolled ? 'fixed top-0 z-50' : 'lg:absolute lg:-bottom-[86px]'} lg:flex lg:items-center lg:justify-between lg:px-[50px] hidden lg:block`} style={{ paddingBottom: `${paddingBottom}px` }}>
+      <nav className={` w-full left-0 shadow-custom1 h-16 rounded-[10px] ${isScrolled ? 'fixed top-0 z-50 bg-white' : 'bg-transparent lg:absolute lg:-bottom-[86px]'} lg:flex lg:items-center lg:justify-between lg:px-[50px] hidden lg:block`} style={{ paddingBottom: `${paddingBottom}px` }}>
         <ul className='flex gap-x-4'>
           <li>
             <Link
               smooth to="#home"
-              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'home' ? 'active' : ''}`}
+              className={`border-r  pr-4  hover:text-accent transition-all duration-300 ${isScrolled ? 'text-secondary border-secondary' : 'text-white border-white'} ${activeLink === 'home' ? 'active' : ''}`}
               onClick={() => onUpdateActiveLink('home')}
             >
               Home
@@ -184,7 +187,7 @@ const Navbar2 = () => {
           <li>
             <Link
               smooth to="#about"
-              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'about' ? 'active' : ''}`}
+              className={`border-r  pr-4  hover:text-accent transition-all duration-300 ${isScrolled ? 'text-secondary border-secondary' : 'text-white border-white'} ${activeLink === 'home' ? 'active' : ''}`}
               onClick={() => onUpdateActiveLink('about')}
             >
               About
@@ -193,7 +196,7 @@ const Navbar2 = () => {
           <li>
             <Link
               smooth to="#services"
-              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'services' ? 'active' : ''}`}
+              className={`border-r  pr-4  hover:text-accent transition-all duration-300 ${isScrolled ? 'text-secondary border-secondary' : 'text-white border-white'} ${activeLink === 'home' ? 'active' : ''}`}
               onClick={() => onUpdateActiveLink('services')}
             >
               Services
@@ -202,7 +205,7 @@ const Navbar2 = () => {
           <li>
           <Link
               smooth to="#hirarchy"
-              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'hirarchy' ? 'active' : ''}`}
+              className={`border-r  pr-4  hover:text-accent transition-all duration-300 ${isScrolled ? 'text-secondary border-secondary' : 'text-white border-white'} ${activeLink === 'home' ? 'active' : ''}`}
               onClick={() => onUpdateActiveLink('hirarchy')}
             >
               Hirarchy
@@ -211,7 +214,7 @@ const Navbar2 = () => {
           <li>
           <Link
               smooth to="#contact"
-              className={`border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ${activeLink === 'Contact' ? 'active' : ''}`}
+              className={`border-r  pr-4  hover:text-accent transition-all duration-300 ${isScrolled ? 'text-secondary border-secondary' : 'text-white border-white'} ${activeLink === 'home' ? 'active' : ''}`}
               onClick={() => onUpdateActiveLink('contact')}
             >
               Contact

@@ -3,7 +3,7 @@ import { RiHeartPulseLine } from "react-icons/ri";
 import img from '../../assets/hero/img.png'
 const Hero2 = () => {
   return (
-    <div className='hero bg-gray py-12 xl:pt-12 xl:pb-0 overflow-hidden'>
+    <div className='hero  py-12 xl:pt-12 xl:pb-0 overflow-hidden'>
         <div className='container mx-auto h-full'>
             {/* text-img */}
             <div className='flex flex-col xl:flex-row items-center justify-between h-full'>
@@ -34,9 +34,7 @@ const Hero2 = () => {
                     </button>
                 </div>
                 {/* image */}
-                <div className='hero__img hidden xl:flex max-w-[814px] self-end'>
-                    <img src={img} alt="hero" />
-                </div>
+                
             </div>
         </div>
     </div>

@@ -25,9 +25,11 @@ export default {
         custom2: '0px 0px 30px  0px rgba(8, 73, 81, 0.06)',
       },
       backgroundImage: {
-        services: "url('./src/assets/services/bg.svg')",
+        services: "url('./src/assets/services/about.png')",
         testimonials: "url('./src/assets/testimonials/bg.svg')",
         departments: "url('./src/assets/departments/bg.svg')",
+        about: "url('./src/assets/hero/about.svg')",
+        
       }
     },
 
