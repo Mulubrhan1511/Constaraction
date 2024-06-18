@@ -74,7 +74,7 @@ together.
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div class="img-box">
-                <img src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718478374/mission_cl1hhn.jpg" alt="About Us tailwind page"
+                <img src="../../assets/About/vision.png" alt="About Us tailwind page"
                     class="max-lg:mx-auto" />
             </div>
             <div class="lg:pl-[100px] flex items-center">
