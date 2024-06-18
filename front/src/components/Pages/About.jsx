@@ -12,13 +12,61 @@ const About = () => {
             About <span class="text-blue-400">us </span>
         </h1>
         <p class="max-w-5xl mx-auto text-center text-base lg:text-2xl font-normal leading-7 text-gray-500 mb-9 ">DARNA Construction
-             and Business PLC were established at 2024 GC at Tigray region Mekelle city. It is private limited company that 
-             involves construction like building construction, road construction, site work and finishing works. DARNA. Construction
-              and business plc targeted in the near future fully involve in real estate development. DARNA construction and Business
-               plc believe the most company which creates a difference construction and real estate development by quality and safety 
-               construction. Using modern technology, very qualified professionals and satisfied clients in east Africa.
-In addition DARNA involve in business like import construction materials and supplies construction materials in local market 
-integrated with local manufacturers.
+        DARNA Construction and Business PLC was established at 2024 GC at Mekelle city, Tigray regional state, Ethiopia. 
+        It is a private limited company that involves general construction works like building commercial and residential 
+        construction, road and dam construction, site work and finishing works. DARNA Construction and Business plc will 
+        targets in the near future fully involve in Real Estate development. DARNA Construction and Business plc believe 
+        the most company which makes a difference in construction and real estate development bulk construction, best quality
+         construction and safety construction for the clients. DARNA will use modern technology, very qualified professionals and
+          satisfied clients in East Africa.
+          <br/>
+          <br/>
+
+          In addition DARNA involve in business like import construction materials and industries raw materials as well as it
+           will supply construction materials in local market integrated with local manufacturers.
+           <br/>
+           <br/>
+           DARNA construction and business plc use 500,000 birr for startup finance. This finance is very small but it expected
+            the founders experience and connection as well as it involve very capable engineers in the company.
+DARNA construction and business plc will focus urbanization of the country and its neighbor country is low. In Ethiopia urbanization
+ is around 23% as censes of 2010 E.C. So from the rural area people migrated highly. Not only migration but also in the urban area the
+ demand of housing and infrastructure is big. The modern construction in urban area is not well. DARNA construction and business 
+ plc need its own contribution in Ethiopia and neighboring country which is East Africa. 
+        <h1
+         class="max-w-2xl mx-auto text-center font-manrope  text-4xl  text-gray-900 mb-5 md:text-5xl md:leading-normal">
+            Background
+        </h1>
+
+ DARNA Construction and Business plc will focus on resident, commercial and infrastructure. DARNA Construction and 
+ Business plc is a construction and business organization established to construct building, sidewalk, road, highways
+  and real estate development. 
+DARNA Construction and Business plc will handle architectural design, building actual structure and doing contract administration. 
+And DARNA Construction and Business plc have a team of experts includes architects, engineers, project managers and officers who work 
+together.
+<br/>
+<br/>
+
+<h1
+         class="max-w-2xl mx-auto text-center font-manrope  text-2xl  text-gray-900 mb-5 md:text-3xl md:leading-normal">
+            ORGANIZATION STRUCTURE OF DARNACONSTRUCTION AND BUSINESS PLC IS THE FOLLOWING:-
+
+        </h1>
+        The founders of DARNA construction and business PLC are two Ethiopian. The general manager is Mrs. 
+        Almaz Abreha. She has accounting BA Degree background. She has good 
+        experience in trading by her own way. The other founder and D/Manager
+         is Mr. Nigus Teklay his background was BA Degree in foreign 
+         languages and literature and MA degree in urban management. He has
+          good experience at communication and project management. He worked 
+          around 10 years in government offices as project manager and bureau
+           head as well as he has  good experience at import, export and 
+           electro mechanical. He worked in two private companies as general
+            manager. So the founders have good experience in construction,
+             logistics, import, export and communication. DARNA will have a
+              chance to support by good experienced young founders. 
+              The founders are around 5 year in their own business and
+               accessing business.
+
+
 </p>
     </div>
 </section>
@@ -35,10 +83,7 @@ integrated with local manufacturers.
                         class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                         Vision</h2>
                     <p class="font-normal text-1xl leading- text-gray-500 lg:text-2xl max-lg:text-center max-w-2xl mx-auto">
-                    To be a leader in the construction industry, recognized for:
-Innovation and sustainability: Pioneering new building methods and technologies that minimize environmental impact.
-Exceptional client experiences: Building trust and exceeding expectations through clear communication and collaborative partnerships.
-Positive community impact: Contributing to the development of thriving and sustainable communities.
+                    Our vision is to strive and contract being one of the best construction company and service providers in East Africa
                     </p>
                 </div>
             </div>
@@ -55,9 +100,8 @@ Positive community impact: Contributing to the development of thriving and susta
                         class="block lg:hidden mb-9 mx-auto" /> */}
                     <h2 class="font-manrope font-bold text-4xl lg:text-5xl  text-black mb-9 max-lg:text-center">Mission</h2>
                     <p class="font-normal text-xl leading-8 text-gray-500 lg:text-2xl max-lg:text-center max-w-2xl mx-auto">
-                    We are dedicated to delivering high-quality, innovative construction projects that are completed on time and within budget.
-We foster a collaborative and inclusive work environment that empowers our team and celebrates diversity.
-We prioritize safety and environmental responsibility in all our practices.
+                    DARNA Construction and Business plc aim to be best construction company providing efficien,t affordable,
+                     sustainable, and cost effective services of highest level of quality standard.
                     </p>
                 </div>
             </div>

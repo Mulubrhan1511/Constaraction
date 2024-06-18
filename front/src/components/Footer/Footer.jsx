@@ -107,7 +107,7 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Ethiopia, Adis Ababa</p>
+                  <p>Address: Kedamay Weyane, Around Romanat Square Near Zemarias Hotel, Mekelle City, Tigray, Ethiopia</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
