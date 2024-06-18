@@ -41,16 +41,13 @@ const Footer = () => {
   return (
     <div  className="text-white bg-accent-secondary">
       <div className="container ">
-        <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
+        <div data-aos="zoom-in" className="grid md:grid-cols-3 ">
           {/* company details */}
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              
-            Construction
+            DARNA Construction and Business PLC
             </h1>
-            <p>
-            DARNA specializes in a wide range of construction projects, including residential, commercial, and industrial developments
-            </p>
+            
           </div>
 
           {/* Footer Links */}
@@ -118,6 +115,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div class="bg-black/5 p-4 text-center text-surface dark:text-white">
+    © 2024 Copyright:
+    <a href="https://harifsite.com/">Harif Site</a>
+  </div>
     </div>
   );
 };
