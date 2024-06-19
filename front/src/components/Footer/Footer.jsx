@@ -32,7 +32,7 @@ const FooterLinks = [
     link: "/#contact",
   },
   {
-    title: "Blog",
+    title: "Our service",
     link: "/#blog",
   },
 ];
@@ -115,9 +115,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
       <div class="bg-black/5 p-4 text-center text-surface dark:text-white">
     © 2024 Copyright:
-    <a href="https://harifsite.com/">Harif Site</a>
+    <a href="https://harifsite.com/" target="_blank">Harif</a>
   </div>
     </div>
   );
