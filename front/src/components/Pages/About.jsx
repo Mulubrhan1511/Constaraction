@@ -74,7 +74,8 @@ together.
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div class="img-box">
-                <img src="../../assets/About/vision.png" alt="About Us tailwind page"
+                {/* image is here */}
+                <img src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718695595/vision_yhl0du.png" alt="About Us tailwind page"
                     class="max-lg:mx-auto" />
             </div>
             <div class="lg:pl-[100px] flex items-center">
@@ -106,7 +107,9 @@ together.
                 </div>
             </div>
             <div class="img-box ">
-                <img src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718139122/mission_xvaigj.jpg" alt="About Us tailwind page"
+                {/* image is here */}
+
+                <img src="https://res.cloudinary.com/diulu4bz3/image/upload/v1718695595/misiiion_aelnql.png" alt="About Us tailwind page"
                     class=" lg:block " />
             </div>
         </div>
@@ -114,7 +117,7 @@ together.
 </section>
 <section class="py-20 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 class="font-manrope text-xl text-center text-gray-900 font-bold mb-14">Darna Capital result</h2>
+        <h2 class="font-manrope text-3xl text-center text-gray-900 font-bold mb-14">Darna Capital result</h2>
         <div class="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
             <div
                 class="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
