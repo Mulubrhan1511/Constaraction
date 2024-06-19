@@ -84,10 +84,7 @@ together.
                         class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                         Vision</h2>
                     <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                    To be a leader in the construction industry, recognized for:
-Innovation and sustainability: Pioneering new building methods and technologies that minimize environmental impact.
-Exceptional client experiences: Building trust and exceeding expectations through clear communication and collaborative partnerships.
-Positive community impact: Contributing to the development of thriving and sustainable communities.
+                    Our vision is to strive and contract being one of the best construction company and service providers in East Africa.
                     </p>
                 </div>
             </div>
@@ -104,9 +101,7 @@ Positive community impact: Contributing to the development of thriving and susta
                         class="block lg:hidden mb-9 mx-auto" />
                     <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">Mission</h2>
                     <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                    We are dedicated to delivering high-quality, innovative construction projects that are completed on time and within budget.
-We foster a collaborative and inclusive work environment that empowers our team and celebrates diversity.
-We prioritize safety and environmental responsibility in all our practices.
+                    DARNA Construction and Business plc aim to be best construction company providing efficien,t affordable, sustainable, and cost effective services of highest level of quality standard.
                     </p>
                 </div>
             </div>
