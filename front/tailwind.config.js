@@ -10,10 +10,14 @@ export default {
       colors: {
         primary: ' #FFB81C',
         secondary:'#005A9E',
+        gold:'#FFD700',
         accent:{
           DEFAULT:'#1cbccf',
           secondary:'#18abbc',
           tertiary:'#90c6cd',
+        },
+        transparentWhite: {
+          35: 'rgba(0, 0, 0, 0.35)',
         },
         gray: '#e8f0f1',
       },

@@ -8,11 +8,8 @@ import { MdConstruction } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div>
-        <div className='section pb-24 '>
-            <div className='container mx-auto p-0'>
-            </div>
-        </div>
+    <div className='pb-14'>
+        
         <div className='services'>
             <div className='bg-blue-600 bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-0 relative h-[368px] flex items-center xl:items-start'>
                 <div className='container mx-auto p-0'>
@@ -33,7 +30,7 @@ const Services = () => {
                             <MdConstruction></MdConstruction>
                         </div>
                         <h3 className='h3 mb-[10px]'>General Contracting</h3>
-                        <p className='font-light leading-normal max-w-[300px]'>
+                        <p className='text-secondary font-light leading-normal max-w-[300px]'>
                         Residential Construction: Single-family homes, 
                         multi-family developments, townhouses, etc.
                         </p>
@@ -43,7 +40,7 @@ const Services = () => {
                             {/* <img src={serviceImg2} alt="services" /> */}
                         </div>
                         <h3 className='h3 mb-[10px]'>Commercial Build-Outs</h3>
-                        <p className='font-light bg-white leading-normal max-w-[300px]'>
+                        <p className='text-secondary font-light bg-white leading-normal max-w-[300px]'>
                         Commercial Construction: Office buildings, retail spaces, restaurants, warehouses, etc.. 
                         </p>
                     </div>
@@ -52,7 +49,7 @@ const Services = () => {
                             {/* <img src={serviceImg3} alt="services" /> */}
                         </div>
                         <h3 className='h3 mb-[10px]'>Design-Build Services</h3>
-                        <p className='font-light leading-normal max-w-[300px]'>
+                        <p className='text-secondary font-light leading-normal max-w-[300px]'>
                         Industrial Construction: Manufacturing facilities, warehouses, distribution centers, etc. 
                         </p>
                     </div>
@@ -61,7 +58,7 @@ const Services = () => {
                             {/* <img src={serviceImg4} alt="services" /> */}
                         </div>
                         <h3 className='h3 mb-[10px]'>Permitting and Inspections</h3>
-                        <p className='font-light leading-normal max-w-[300px]'>
+                        <p className='text-secondary font-light leading-normal max-w-[300px]'>
                         Institutional Construction: Schools, hospitals, government buildings, et 
                         </p>
                     </div>

@@ -30,7 +30,7 @@ const App = () => {
         <div className="">
           <div className="bg-services bg-cover">
           <Navbar2 />
-          <section id="home">
+          <section id="home" className="pt-20 pb-3">
             <Home />
           </section>
           </div>
