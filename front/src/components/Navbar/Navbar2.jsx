@@ -156,7 +156,7 @@ const Navbar2 = () => {
                 </ul>
 
                 {/* form */}
-                <form className='relative flex gap-x-[10px]'>
+                {/* <form className='relative flex gap-x-[10px]'>
                   <label htmlFor="mnav-search-input">
                     <RiSearchLine className='text-2xl text-accent' />
                   </label>
@@ -166,7 +166,7 @@ const Navbar2 = () => {
                     placeholder='Search...'
                     className='outline-none w-[160] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic'
                   />
-                </form>
+                </form> */}
               </div>
             </nav>
       {/* desktop nav */}
