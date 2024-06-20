@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiHeartPulseLine } from "react-icons/ri";
+
 
 const Hero2 = () => {
   return (
