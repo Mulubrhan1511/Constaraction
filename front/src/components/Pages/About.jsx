@@ -9,9 +9,9 @@ const About = () => {
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
         <h1
             class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl  text-gray-900 mb-5 md:text-5xl md:leading-normal">
-            About <span class="text-blue-400">Darna capital </span>
+            About <span class="text-blue-400">Us </span>
         </h1>
-        <p class="max-w-5xl mx-auto text-center text-base lg:text-2xl font-normal leading-7 text-gray-500 mb-9 ">DARNA Construction
+        <p class="max-w-5xl mx-auto text-center text-base lg:text-2xl font-normal leading-7 text-gray-500 mb-9 ">
         DARNA Construction and Business PLC was established at 2024 GC at Mekelle city, Tigray regional state, Ethiopia. 
         It is a private limited company that involves general construction works like building commercial and residential 
         construction, road and dam construction, site work and finishing works. DARNA Construction and Business plc will 
@@ -26,7 +26,7 @@ const About = () => {
            will supply construction materials in local market integrated with local manufacturers.
            <br/>
            <br/>
-           DARNA construction and business plc use 500,000 birr for startup finance. This finance is very small but it expected
+           We use 500,000 birr for startup finance. This finance is very small but it expected
             the founders experience and connection as well as it involve very capable engineers in the company.
 DARNA construction and business plc will focus urbanization of the country and its neighbor country is low. In Ethiopia urbanization
  is around 23% as censes of 2010 E.C. So from the rural area people migrated highly. Not only migration but also in the urban area the
@@ -37,7 +37,7 @@ DARNA construction and business plc will focus urbanization of the country and i
             Background
         </h1>
 
- DARNA Construction and Business plc will focus on resident, commercial and infrastructure. DARNA Construction and 
+We focus on resident, commercial and infrastructure. DARNA Construction and 
  Business plc is a construction and business organization established to construct building, sidewalk, road, highways
   and real estate development. 
 DARNA Construction and Business plc will handle architectural design, building actual structure and doing contract administration. 
@@ -101,7 +101,7 @@ together.
                         class="block lg:hidden mb-9 mx-auto" />
                     <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">Mission</h2>
                     <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                    DARNA Construction and Business plc aim to be best construction company providing efficien,t affordable, sustainable, and cost effective services of highest level of quality standard.
+                    we aim to be best construction company providing efficien,t affordable, sustainable, and cost effective services of highest level of quality standard.
                     </p>
                 </div>
             </div>
