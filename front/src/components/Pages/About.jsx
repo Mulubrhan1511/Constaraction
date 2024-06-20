@@ -20,9 +20,7 @@ const About = () => {
           <p className="max-w-3xl mx-auto text-base lg:text-lg text-gray-600 leading-7 mb-8">
             DARNA Construction and Business PLC, established in 2024 in Mekelle city, Tigray regional state, Ethiopia, is a private limited company specializing in various types of construction including commercial and residential buildings, roads, dams, site work, and finishing works. Our goal is to become a leader in construction and real estate development in East Africa, focusing on high-quality, safe, and client-oriented projects.
           </p>
-          <p className="max-w-3xl mx-auto text-base lg:text-lg text-gray-600 leading-7 mb-8">
-            In addition to construction, DARNA imports construction and industrial raw materials and collaborates with local manufacturers to supply materials in the local market. With a startup capital of 500,000 birr, we leverage our founders' engineering expertise and industry connections. Our mission is to contribute significantly to urbanization in Ethiopia and East Africa, meeting the increasing demand for housing and infrastructure.
-          </p>
+          
         </div>
       </section>
 

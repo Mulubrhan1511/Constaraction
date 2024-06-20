@@ -116,7 +116,7 @@ const Footer = () => {
         </div>
       </div>
       
-      <div class="bg-black/5 p-4 text-center text-surface dark:text-white">
+      <div className="bg-black/5 p-4 text-center text-surface dark:text-white">
     © 2024 Copyright:
     <a href="https://harifsite.com/" target="_blank">Harif</a>
   </div>

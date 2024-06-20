@@ -95,60 +95,48 @@ const Navbar2 = () => {
                 <ul className='flex flex-col gap-y-5'>
                   <li>
                     <Link
-                      to="/"
+                      smooth to="#home"
+                      onClick={() => onUpdateActiveLink('home')}
                       className='text-secondary hover:text-accent transition-all duration-300 '
-                      onClick={() => {
-                        onUpdateActiveLink('home');
-                        handleNavToggle();
-                      }}
+                      
                     >
                       Home
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to="/about"
+                      smooth to="#about"
+                      onClick={() => onUpdateActiveLink('about')}
                       className='text-secondary hover:text-accent transition-all duration-300'
-                      onClick={() => {
-                        onUpdateActiveLink('about');
-                        handleNavToggle();
-                      }}
+                      
                     >
                       About us
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to="/services"
+                      smooth to="#services"
+                      onClick={() => onUpdateActiveLink('services')}
                       className='text-secondary hover:text-accent transition-all duration-300'
-                      onClick={() => {
-                        onUpdateActiveLink('services');
-                        handleNavToggle();
-                      }}
                     >
                       Services
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to="/blog"
+                      smooth to="#blog"
+                      onClick={() => onUpdateActiveLink('blog')}
                       className='text-secondary hover:text-accent transition-all duration-300'
-                      onClick={() => {
-                        onUpdateActiveLink('blog');
-                        handleNavToggle();
-                      }}
+                      
                     >
                       Blog
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to="/contact"
+                      smooth to="#contact"
+                      onClick={() => onUpdateActiveLink('contact')}
                       className='text-secondary hover:text-accent transition-all duration-300'
-                      onClick={() => {
-                        onUpdateActiveLink('contact');
-                        handleNavToggle();
-                      }}
                     >
                       Contact us
                     </Link>
