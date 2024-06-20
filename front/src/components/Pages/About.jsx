@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import mission from "../../assets/About/misiiion.png";
 import vision from "../../assets/About/vision.png";
-import valuesImage from "../../assets/About/vision.png";
+import valuesImage from "../../assets/About/corevalues.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
