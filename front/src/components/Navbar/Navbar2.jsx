@@ -137,6 +137,7 @@ const Navbar2 = () => {
                       smooth to="#contact"
                       onClick={() => onUpdateActiveLink('contact')}
                       className='text-secondary hover:text-accent transition-all duration-300'
+
                     >
                       Contact us
                     </Link>
