@@ -25,16 +25,16 @@ const ContactUs = () => {
                 <div className='flex flex-col space-y-6'>
                     <div className='incline-flex space-x-2 items-center flex'>
                     <IoCall className='text-teal-300 text-xl'/>
-                    <span >+2519 11 11 11</span>
+                    <span >(+251) 91 170 3505</span>
                     </div>
                     <div className='incline-flex space-x-2 items-center flex'>
                     <RiMapPin2Fill className='text-teal-300 text-xl'/>
-                    <span >Addis Ababa, Ethiopia</span>
+                    <span > Mekelle, Tigray, Ethiopia</span>
                     </div>
                     <div className='incline-flex space-x-2 items-center flex'>
                     <RiMailFill className='text-teal-300 text-xl'/>
                     
-                    <span >mulubrhangebrkidan@gmail.com</span>
+                    <span >contact</span>
                     </div>
                 </div>
                 <div className='flex space-x-4 text-lg'>

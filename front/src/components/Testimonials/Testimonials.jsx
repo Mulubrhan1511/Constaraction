@@ -5,25 +5,25 @@ const TestimonialData = [
   {
     id: 1,
     name: "Binyam ",
-    text: "I wanted to take this opportunity to thank you for helping us build our first house",
+    text: "I was impressed with Darna from the very beginning. They were professional, communicated clearly throughout the project,",
     img: "../front/src/assets/testimonials/665-103x103.jpg",
   },
   {
     id: 2,
     name: "dawit",
-    text: "I wanted to take this opportunity to thank you for helping us build our first house",
+    text: "They were incredibly flexible and accommodating to our needs, even with some last-minute changes we requested. The quality of their work is outstanding,",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
     name: "Eyob",
-    text: "I wanted to take this opportunity to thank you for helping us build our first house",
+    text: "Working for Darna has been a great experience. They provide excellent training and support, and they truly value their employees.",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
     name: "Ngus teklay",
-    text: "I wanted to take this opportunity to thank you for helping us build our first house",
+    text: "Darna is a forward-thinking company that invests in its employees",
     img: "https://picsum.photos/103/103",
   },
 ];
