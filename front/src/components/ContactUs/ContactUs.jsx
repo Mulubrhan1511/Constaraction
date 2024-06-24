@@ -34,7 +34,7 @@ const ContactUs = () => {
                     <div className='incline-flex space-x-2 items-center flex'>
                     <RiMailFill className='text-teal-300 text-xl'/>
                     
-                    <span >contact</span>
+                    <span >darnacons2024@gmail.com</span>
                     </div>
                 </div>
                 <div className='flex space-x-4 text-lg'>

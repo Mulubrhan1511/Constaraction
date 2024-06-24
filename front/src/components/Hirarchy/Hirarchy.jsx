@@ -18,7 +18,7 @@ const OrganizationStructure = () => {
           src={img} 
           alt="Organization Structure of DARNA Construction and Business PLC" 
           className="rounded-lg shadow-2xl w-full"
-          data-aos="fade-up"
+          
         />
       </div>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl">

@@ -3,7 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { RiPhoneFill, RiMenu3Line } from 'react-icons/ri';
 import { TbMailFilled } from "react-icons/tb";
 import { MdAccessTimeFilled } from "react-icons/md";
-import Logo from '../../assets/logo/logo.jpg';
+import Logo from '../../assets/logo/logo22.jpg';
 
 const Navbar2 = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -47,7 +47,7 @@ const Navbar2 = () => {
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
                 <div className='text-white flex flex-row text-sm'>
                   <TbMailFilled className='text-xl text-red-400'/>
-                  <div className='text-white text-sm'>info@worldshipping.com</div>
+                  <div className='text-white text-sm'>darnacons2024@gmail.com</div>
                 </div>
               </div>
               {/* phone */}
