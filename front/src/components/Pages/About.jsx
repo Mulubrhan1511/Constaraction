@@ -13,16 +13,22 @@ const About = () => {
   return (
     <div className='text-white'>
       <section className="py-16 lg:py-20 bg-gray-50" data-aos="fade-in" data-aos-duration="800">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">
-            About <span className="text-blue-400">Us</span>
-          </h1>
-          <p className="max-w-3xl mx-auto text-base lg:text-lg text-gray-600 leading-7 mb-8">
-            DARNA Construction and Business PLC, established in 2024 in Mekelle city, Tigray regional state, Ethiopia, is a private limited company specializing in various types of construction including commercial and residential buildings, roads, dams, site work, and finishing works. Our goal is to become a leader in construction and real estate development in East Africa, focusing on high-quality, safe, and client-oriented projects.
-          </p>
-          
-        </div>
-      </section>
+  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+    <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">
+      About <span className="text-blue-400">Us</span>
+    </h1>
+    <p className="max-w-3xl mx-auto text-base lg:text-lg text-gray-600 leading-7 mb-8">
+      DARNA Construction and Business PLC, established in 2024 GC in Mekelle city, Tigray region, is a private limited company engaged in various construction activities. These include building construction, road construction, site work, and finishing works. In the near future, DARNA aims to fully venture into real estate development, setting a benchmark in quality and safety construction.
+    </p>
+    <p className="max-w-3xl mx-auto text-base lg:text-lg text-gray-600 leading-7 mb-8">
+      Leveraging modern technology, highly qualified professionals, and a commitment to client satisfaction, DARNA is poised to make a significant impact in East Africa. In addition to construction, DARNA is involved in importing construction materials and supplying them to the local market in collaboration with local manufacturers.
+    </p>
+    <p className="max-w-3xl mx-auto text-base lg:text-lg text-gray-600 leading-7 mb-8">
+      Despite starting with a modest capital of 500,000 birr, the founders' experience and extensive connections, along with the involvement of capable engineers, position the company for success. DARNA targets the low urbanization rate in Ethiopia, currently around 23% as of 2010 E.C., aiming to contribute significantly to the urban development of the country and its neighbors in East Africa.
+    </p>
+  </div>
+</section>
+
 
       <section className="py-14 lg:py-24 relative" data-aos="fade-in" data-aos-duration="800">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
